@@ -1,12 +1,11 @@
 import os
 
+from data_play.test.test_data import TestData
 from python_helpers.ph_constants import PhConstants
 from python_helpers.ph_dos import PhDos
 from python_helpers.ph_keys import PhKeys
 from python_helpers.ph_process import PhProcess
 from python_helpers.ph_util import PhUtil
-
-from data_play.test.test_data import TestData
 
 
 class TestAutoBatch:
