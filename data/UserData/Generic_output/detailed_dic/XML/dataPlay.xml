@@ -1,5 +1,5 @@
 <menu>
-    <header>Adobe SVG Viewer</header>
+    <header>Adobe PNG Viewer</header>
     <item action="Open" id="Open">Open</item>
     <item action="OpenNew" id="OpenNew">Open New</item>
     <separator/>
@@ -15,8 +15,8 @@
     <item action="FindAgain" id="FindAgain">Find Again</item>
     <item action="Copy" id="Copy">Copy</item>
     <item action="CopyAgain" id="CopyAgain">Paste Again</item>
-    <item action="CopySVG" id="CopySVG">Paste SVG</item>
-    <item action="ViewSVG" id="ViewSVG">View SVG</item>
+    <item action="CopyPNG" id="CopyPNG">Paste PNG</item>
+    <item action="ViewPNG" id="ViewPNG">View PNG</item>
     <item action="ViewSource" id="ViewSource">View Source</item>
     <item action="SaveAs" id="SaveAs">Save As</item>
     <separator/>

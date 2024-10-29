@@ -7,7 +7,7 @@ from python_helpers.ph_util import PhUtil
 
 def process_mappings(input_data, mappings):
     """
-    
+
     :param input_data:
     :param mappings:
     :return:
@@ -17,7 +17,12 @@ def process_mappings(input_data, mappings):
     output_data = copy.deepcopy(input_data)
     for mapping in mappings:
         if isinstance(mapping, dict):
-            mapping = SearchAndReplaceData(**mapping)
+            if len(mapping) == 1:
+                # Shorthand is provided
+                for key, value in mapping.items():
+                    mapping = SearchAndReplaceData(include_search_pattern=key, replace_with=value)
+            else:
+                mapping = SearchAndReplaceData(**mapping)
         if not isinstance(mapping, SearchAndReplaceData):
             raise ValueError('Unsupported Mapping Provided...')
         include_search_pattern = mapping.get_include_search_pattern()

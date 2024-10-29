@@ -1,3 +1,4 @@
+import os
 from collections import OrderedDict
 
 from data_play.main.data_type.data_type_master import DataTypeMaster
@@ -48,8 +49,16 @@ class Sample(DataTypeMaster):
         super().set_name_mappings(name_mappings)
 
     def set_data_pool(self):
-
         content_mappings_test = [
+            {'Copy ': 'Paste '},
+            {'"title"': '"sir_name"'},
+            {'': ''},
+            {'Fantasy': 'Horror'},
+            {'svg': 'jpeg'},
+            {'SVG': 'PNG'},
+        ]
+
+        content_mappings_detailed_test = [
             {
                 PhKeys.INCLUDE_SEARCH_PATTERN: 'Copy ',
                 PhKeys.REPLACE_WITH: 'Paste ',
@@ -60,9 +69,37 @@ class Sample(DataTypeMaster):
             },
             {
             },
+            {
+                PhKeys.INCLUDE_SEARCH_PATTERN: 'Fantasy',
+                PhKeys.REPLACE_WITH: 'Horror',
+            },
+            {  # TODO:  Currently Case sensitive, so no changes for this
+                PhKeys.INCLUDE_SEARCH_PATTERN: 'svg',
+                PhKeys.REPLACE_WITH: 'jpeg',
+            },
+            {
+                PhKeys.INCLUDE_SEARCH_PATTERN: 'SVG',
+                PhKeys.REPLACE_WITH: 'PNG',
+            },
+        ]
+
+        content_mappings_search_n_replace_test = [
+            SearchAndReplaceData(include_search_pattern='Copy ', replace_with='Paste '),
+            SearchAndReplaceData(include_search_pattern='"title"', replace_with='"sir_name"'),
+            SearchAndReplaceData(),
+            SearchAndReplaceData(include_search_pattern='Fantasy ', replace_with='Horror '),
+            # TODO: Currently Case sensitive, so no changes for this
+            SearchAndReplaceData(include_search_pattern='svg', replace_with='jpeg'),
+            SearchAndReplaceData(include_search_pattern='SVG', replace_with='PNG'),
         ]
 
         name_mappings_test = [
+            {'1': '11'},
+            {'2': '22'},
+            {'5': 'dataPlay'},
+        ]
+
+        name_mappings_detailed_test = [
             {
                 PhKeys.INCLUDE_SEARCH_PATTERN: '1',
                 PhKeys.REPLACE_WITH: '11',
@@ -71,52 +108,111 @@ class Sample(DataTypeMaster):
                 PhKeys.INCLUDE_SEARCH_PATTERN: '2',
                 PhKeys.REPLACE_WITH: '22',
             },
+            {
+                PhKeys.INCLUDE_SEARCH_PATTERN: '5',
+                PhKeys.REPLACE_WITH: 'dataPlay',
+            },
+        ]
+
+        name_mappings_search_n_replace_test = [
+            SearchAndReplaceData(include_search_pattern='1', replace_with='11'),
+            SearchAndReplaceData(include_search_pattern='2', replace_with='22'),
+            SearchAndReplaceData(include_search_pattern='5', replace_with='dataPlay'),
         ]
 
         data_pool = [
-
+            #
             Data(
-                remarks='Miscellaneous Files; SearchAndReplaceData Object',
-                input_data=Folders.in_user_gen(),
+                remarks='Simple Data Provided in Text; Dictionary',
+                input_data='86020102',
                 content_mappings=[
-                    SearchAndReplaceData(include_search_pattern='Copy ', replace_with='Paste '),
-                    SearchAndReplaceData(include_search_pattern='"title"', replace_with='"sir_name"'),
-                    SearchAndReplaceData(),
-                ],
-                name_mappings=[
-                    SearchAndReplaceData(include_search_pattern='Generic', replace_with='Generic_output'),
-                    SearchAndReplaceData(include_search_pattern='1', replace_with='11'),
-                    SearchAndReplaceData(include_search_pattern='2', replace_with='22'),
+                    {'02': '22'},
                 ]
             ),
             #
             Data(
-                remarks='Miscellaneous Files; Dictionary',
+                remarks='Simple Data Provided in Text; Detailed Dictionary',
+                input_data='86020102',
+                content_mappings=[
+                    {
+                        PhKeys.INCLUDE_SEARCH_PATTERN: '02',
+                        PhKeys.REPLACE_WITH: '22',
+                    },
+                ]
+            ),
+            #
+            Data(
+                remarks='Simple Data Provided in Text; SearchAndReplaceData Object',
+                input_data='86020102',
+                content_mappings=[
+                    SearchAndReplaceData(include_search_pattern='02', replace_with='22'),
+                ]
+            ),
+            #
+            Data(
+                remarks='Miscellaneous Files; Dictionary only content',
                 input_data=Folders.in_user_gen(),
                 content_mappings=content_mappings_test,
-                name_mappings=name_mappings_test +
+                name_mappings=name_mappings_detailed_test +
                               [
                                   {
                                       PhKeys.INCLUDE_SEARCH_PATTERN: 'Generic',
-                                      PhKeys.REPLACE_WITH: 'Generic_output_dic',
+                                      PhKeys.REPLACE_WITH: os.sep.join(['Generic_Output', 'dic_content']),
                                   },
                               ],
             ),
-
+            #
             Data(
-                remarks='Miscellaneous Files; Dictionary; Encoding UTF8',
+                remarks='Miscellaneous Files; Dictionary; Content & Name',
                 input_data=Folders.in_user_gen(),
                 content_mappings=content_mappings_test,
                 name_mappings=name_mappings_test +
                               [
                                   {
                                       PhKeys.INCLUDE_SEARCH_PATTERN: 'Generic',
-                                      PhKeys.REPLACE_WITH: 'Generic_output_dic_encoding',
+                                      PhKeys.REPLACE_WITH: os.sep.join(['Generic_Output', 'dic_content_n_name']),
+                                  },
+                              ],
+            ),
+            #
+            Data(
+                remarks='Miscellaneous Files; Detailed Dictionary',
+                input_data=Folders.in_user_gen(),
+                content_mappings=content_mappings_detailed_test,
+                name_mappings=name_mappings_detailed_test +
+                              [
+                                  {
+                                      PhKeys.INCLUDE_SEARCH_PATTERN: 'Generic',
+                                      PhKeys.REPLACE_WITH: os.sep.join(['Generic_Output', 'detailed_dic']),
+                                  },
+                              ],
+            ),
+            #
+            Data(
+                remarks='Miscellaneous Files; SearchAndReplaceData Object',
+                input_data=Folders.in_user_gen(),
+                content_mappings=content_mappings_search_n_replace_test,
+                name_mappings=name_mappings_search_n_replace_test + [
+                    SearchAndReplaceData(include_search_pattern='Generic',
+                                         replace_with=os.sep.join(['Generic_Output', 'SearchAndReplaceData'])
+                                         ),
+                ],
+            ),
+            #
+            Data(
+                remarks='Miscellaneous Files; Detailed Dictionary; Encoding UTF8',
+                input_data=Folders.in_user_gen(),
+                content_mappings=content_mappings_detailed_test,
+                name_mappings=name_mappings_detailed_test +
+                              [
+                                  {
+                                      PhKeys.INCLUDE_SEARCH_PATTERN: 'Generic',
+                                      PhKeys.REPLACE_WITH: os.sep.join(['Generic_Output', 'detailed_dic_encoding']),
                                   },
                               ],
                 encoding=PhConstants.STR_ENCODING_FORMAT_UTF8,
                 encoding_errors=PhConstants.STR_ENCODING_ERROR_HANDLING_REPLACE,
-            )
+            ),
         ]
         super().set_data_pool(data_pool)
 

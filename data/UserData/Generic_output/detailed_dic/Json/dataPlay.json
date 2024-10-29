@@ -1,5 +1,5 @@
 {"menu": {
-    "header": "SVG Viewer",
+    "header": "PNG Viewer",
     "items": [
         {"id": "Open"},
         {"id": "OpenNew", "label": "Open New"},
@@ -16,8 +16,8 @@
         {"id": "FindAgain", "label": "Find Again"},
         {"id": "Copy"},
         {"id": "CopyAgain", "label": "Paste Again"},
-        {"id": "CopySVG", "label": "Paste SVG"},
-        {"id": "ViewSVG", "label": "View SVG"},
+        {"id": "CopyPNG", "label": "Paste PNG"},
+        {"id": "ViewPNG", "label": "View PNG"},
         {"id": "ViewSource", "label": "View Source"},
         {"id": "SaveAs", "label": "Save As"},
         null,

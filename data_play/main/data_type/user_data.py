@@ -45,10 +45,10 @@ class UserData(DataTypeMaster):
         data_pool = [
             #
             Data(
-                remarks='Simple Data Provided in Text',
+                remarks='Simple Data Provided in Text; Dictionary',
                 input_data='86020102',
                 content_mappings=[
-                    SearchAndReplaceData(include_search_pattern='02', replace_with='22'),
+                    {'02': '22'},
                 ]
             ),
         ]
