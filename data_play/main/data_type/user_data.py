@@ -25,6 +25,14 @@ class UserData(DataTypeMaster):
         remarks = None
         super().set_remarks(remarks)
 
+    def set_encoding(self):
+        encoding = None
+        super().set_encoding(encoding)
+
+    def set_encoding_errors(self):
+        encoding_errors = None
+        super().set_encoding_errors(encoding_errors)
+
     def set_content_mappings(self):
         content_mappings = None
         super().set_content_mappings(content_mappings)
@@ -32,14 +40,6 @@ class UserData(DataTypeMaster):
     def set_name_mappings(self):
         name_mappings = None
         super().set_name_mappings(name_mappings)
-
-    def set_one_liner(self):
-        one_liner = None
-        super().set_one_liner(one_liner)
-
-    def set_non_tlv_neighbor(self):
-        non_tlv_neighbor = None
-        super().set_non_tlv_neighbor(non_tlv_neighbor)
 
     def set_data_pool(self):
         data_pool = [

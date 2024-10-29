@@ -22,10 +22,10 @@ class DataTypeMaster(object):
         self.print_info = None
         self.quite_mode = None
         self.remarks = None
+        self.encoding = None
+        self.encoding_errors = None
         self.content_mappings = None
         self.name_mappings = None
-        self.one_liner = None
-        self.non_tlv_neighbor = None
         self.data_pool = []
         self.__master_data = PhMasterData(
             data=Data(input_data=None),
@@ -49,17 +49,17 @@ class DataTypeMaster(object):
     def set_remarks(self, remarks):
         self.remarks = remarks
 
+    def set_encoding(self, encoding):
+        self.encoding = encoding
+
+    def set_encoding_errors(self, encoding_errors):
+        self.encoding_errors = encoding_errors
+
     def set_content_mappings(self, content_mappings):
         self.content_mappings = content_mappings
 
     def set_name_mappings(self, name_mappings):
         self.name_mappings = name_mappings
-
-    def set_one_liner(self, one_liner):
-        self.one_liner = one_liner
-
-    def set_non_tlv_neighbor(self, non_tlv_neighbor):
-        self.non_tlv_neighbor = non_tlv_neighbor
 
     def set_data_pool(self, data_pool):
         self.data_pool = data_pool
@@ -137,10 +137,10 @@ class DataTypeMaster(object):
             data.print_info = data.print_info if data.print_info is not None else self.print_info
             data.quite_mode = data.quite_mode if data.quite_mode is not None else self.quite_mode
             data.remarks = data.remarks if data.remarks is not None else self.remarks
+            data.encoding = data.encoding if data.encoding is not None else self.encoding
+            data.encoding_errors = data.encoding_errors if data.encoding_errors is not None else self.encoding_errors
             data.content_mappings = data.content_mappings if data.content_mappings is not None else self.content_mappings
             data.name_mappings = data.name_mappings if data.name_mappings is not None else self.name_mappings
-            data.one_liner = data.one_liner if data.one_liner is not None else self.one_liner
-            data.non_tlv_neighbor = data.non_tlv_neighbor if data.non_tlv_neighbor is not None else self.non_tlv_neighbor
         else:
             data = Data(
                 input_data=data,
@@ -149,10 +149,10 @@ class DataTypeMaster(object):
                 print_info=self.print_info,
                 quite_mode=self.quite_mode,
                 remarks=self.remarks,
+                encoding=self.encoding,
+                encoding_errors=self.encoding_errors,
                 content_mappings=self.content_mappings,
                 name_mappings=self.name_mappings,
-                one_liner=self.one_liner,
-                non_tlv_neighbor=self.non_tlv_neighbor,
             )
         meta_data = MetaData(input_data_org=data.input_data)
         info_data = InfoData()
@@ -177,8 +177,8 @@ class DataTypeMaster(object):
             PhKeys.INPUT_DATA: data.input_data,
             PhKeys.REMARKS: data.get_remarks_as_str(),
             PhKeys.DATA_GROUP: data.data_group,
+            PhKeys.ENCODING: data.encoding,
+            PhKeys.ENCODING_ERRORS: data.encoding_errors,
             PhKeys.CONTENT_MAPPINGS: data.content_mappings,
             PhKeys.NAME_MAPPINGS: data.name_mappings,
-            PhKeys.ONE_LINER: data.one_liner,
-            PhKeys.NON_TLV_NEIGHBOR: data.non_tlv_neighbor,
         }

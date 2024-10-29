@@ -5,33 +5,36 @@ from python_helpers.ph_util import PhUtil
 
 class Data:
     def __init__(self,
+                 # Common Params
                  input_data=None,
                  print_input=None,
                  print_output=None,
                  print_info=None,
                  quite_mode=None,
+                 remarks=[],
+                 encoding=None,
+                 encoding_errors=None,
+                 # Custom Params
                  # List of file content replace mappings
                  content_mappings=None,
                  # List of file name replace mappings
                  name_mappings=None,
-                 one_liner=None,
-                 non_tlv_neighbor=None,
-                 remarks=[],
+                 # Unknown Params
                  **kwargs,
                  ):
         """
         Instantiate the Data Object for further Processing.
 
         :param input_data: Input Data
-        :param print_input: Printing of input needed ?
-        :param print_output: Printing of output needed ?
-        :param print_info:  Printing of info needed ?
-        :param quite_mode: Quite mode needed ? if yes, no printing at all.
+        :param print_input: Printing of input needed?
+        :param print_output: Printing of output needed?
+        :param print_info:  Printing of info needed?
+        :param quite_mode: Quite mode needed? If yes, no printing at all.
         :param remarks: Remarks for Input Data
+        :param encoding: Encoding for Input/Output Data
+        :param encoding_errors: Encoding Errors Handling for Input/Output Data
         :param content_mappings: Required Content Mappings (if any)
         :param name_mappings: Required Name Mappings (if any)
-        :param one_liner: One Liner output needed ?
-        :param non_tlv_neighbor: Non TLV Neighbor needs to be handled ?
         :param kwargs: To Handle unwanted/deprecated/internal/additional arguments (See Description)
         ----------
 
@@ -48,10 +51,10 @@ class Data:
         self.print_info = print_info
         self.quite_mode = quite_mode
         self.remarks = remarks
+        self.encoding = encoding
+        self.encoding_errors = encoding_errors
         self.content_mappings = content_mappings
         self.name_mappings = name_mappings
-        self.one_liner = one_liner
-        self.non_tlv_neighbor = non_tlv_neighbor
         # Handle kwargs
         if self.input_data is None and PhKeys.RAW_DATA in kwargs:
             self.input_data = kwargs[PhKeys.RAW_DATA]
