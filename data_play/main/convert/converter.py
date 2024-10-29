@@ -1,13 +1,23 @@
+from data_play.main.helper.constants import Constants
 from data_play.main.helper.data import Data
 from data_play.main.helper.defaults import Defaults
 from data_play.main.helper.keywords import KeyWords
 from python_helpers.ph_constants import PhConstants
 from python_helpers.ph_data_master import PhMasterData, PhMasterDataKeys
+from python_helpers.ph_exception_helper import PhExceptionHelper
 from python_helpers.ph_keys import PhKeys
 from python_helpers.ph_util import PhUtil
 
 
 def print_data(data=None, meta_data=None, info_data=None, master_data=None):
+    """
+    
+    :param data:
+    :param meta_data:
+    :param info_data:
+    :param master_data:
+    :return:
+    """
     if master_data is not None and isinstance(master_data, PhMasterData):
         data = master_data.get_master_data(PhMasterDataKeys.DATA)
         meta_data = master_data.get_master_data(PhMasterDataKeys.META_DATA)
@@ -43,14 +53,14 @@ def print_data(data=None, meta_data=None, info_data=None, master_data=None):
         info = PhConstants.SEPERATOR_MULTI_OBJ.join(filter(None, [
             get_dic_data_and_print(PhKeys.TRANSACTION_ID, PhConstants.SEPERATOR_ONE_LINE, meta_data.transaction_id,
                                    dic_format=False, print_also=False),
+            get_dic_data_and_print(PhKeys.ENCODING, PhConstants.SEPERATOR_ONE_LINE, data.encoding,
+                                   dic_format=False, print_also=False) if data.encoding else None,
+            get_dic_data_and_print(PhKeys.ENCODING_ERRORS, PhConstants.SEPERATOR_ONE_LINE, data.encoding_errors,
+                                   dic_format=False, print_also=False) if data.encoding_errors else None,
             get_dic_data_and_print(PhKeys.CONTENT_MAPPINGS, PhConstants.SEPERATOR_ONE_LINE, data.content_mappings,
                                    dic_format=False, print_also=False) if data.content_mappings else None,
             get_dic_data_and_print(PhKeys.NAME_MAPPINGS, PhConstants.SEPERATOR_ONE_LINE, data.name_mappings,
                                    dic_format=False, print_also=False) if data.name_mappings else None,
-            get_dic_data_and_print(PhKeys.ONE_LINER, PhConstants.SEPERATOR_ONE_LINE, data.one_liner,
-                                   dic_format=False, print_also=False) if data.one_liner else None,
-            get_dic_data_and_print(PhKeys.NON_TLV_NEIGHBOR, PhConstants.SEPERATOR_ONE_LINE, data.non_tlv_neighbor,
-                                   dic_format=False, print_also=False) if data.non_tlv_neighbor else None,
             get_dic_data_and_print(PhKeys.QUITE_MODE, PhConstants.SEPERATOR_ONE_LINE, data.quite_mode,
                                    dic_format=False, print_also=False) if data.quite_mode else None,
         ]))
@@ -120,14 +130,15 @@ def parse_config(config_data):
 
 
 def set_defaults_for_printing(data):
-    if data.quite_mode is None:
-        data.quite_mode = Defaults.QUITE_MODE
-    if data.print_input is None:
-        data.print_input = Defaults.PRINT_INPUT
-    if data.print_output is None:
-        data.print_output = Defaults.PRINT_OUTPUT
-    if data.print_info is None:
-        data.print_info = Defaults.PRINT_INFO
+    """
+
+    :param data:
+    :return:
+    """
+    data.quite_mode = PhUtil.set_if_none(data.quite_mode, Defaults.QUITE_MODE)
+    data.print_input = PhUtil.set_if_none(data.print_input, Defaults.PRINT_INPUT)
+    data.print_output = PhUtil.set_if_none(data.print_output, Defaults.PRINT_OUTPUT)
+    data.print_info = PhUtil.set_if_none(data.print_info, Defaults.PRINT_INFO)
 
 
 def set_defaults(data, meta_data):
@@ -137,14 +148,10 @@ def set_defaults(data, meta_data):
     :param meta_data:
     :return:
     """
-    if data.content_mappings is None:
-        data.content_mappings = Defaults.CONTENT_MAPPINGS
-    if data.name_mappings is None:
-        data.name_mappings = Defaults.NAME_MAPPINGS
-    if data.one_liner is None:
-        data.one_liner = Defaults.ONE_LINER
-    if data.non_tlv_neighbor is None:
-        data.non_tlv_neighbor = Defaults.NON_TLV_NEIGHBOR
+    data.encoding = PhUtil.set_if_none(data.encoding, Defaults.ENCODING)
+    data.encoding_errors = PhUtil.set_if_none(data.encoding_errors, Defaults.ENCODING_ERRORS)
+    data.content_mappings = PhUtil.set_if_none(data.content_mappings, Defaults.CONTENT_MAPPINGS)
+    data.name_mappings = PhUtil.set_if_none(data.name_mappings, Defaults.NAME_MAPPINGS)
     if meta_data is None:
         return
 
@@ -153,27 +160,22 @@ def read_web_request(request_form):
     return Data(**parse_config(request_form))
 
 
-def set_defaults_individual_params(content_mappings, name_mappings, one_liner, non_tlv_neighbor):
-    """
-    Set Default Values if nothing is set.
-
-    :param non_tlv_neighbor:
-    :param content_mappings:
-    :param name_mappings:
-    :param one_liner:
-    :return:
-    """
-    if content_mappings is None:
-        content_mappings = Defaults.CONTENT_MAPPINGS
-    if name_mappings is None:
-        name_mappings = Defaults.NAME_MAPPINGS
-    if one_liner is None:
-        one_liner = Defaults.ONE_LINER
-    if one_liner is None:
-        non_tlv_neighbor = Defaults.NON_TLV_NEIGHBOR
-    return content_mappings, name_mappings, one_liner, non_tlv_neighbor
+def read_input_file(data, meta_data, info_data):
+    try:
+        # Binary File
+        with open(data.input_data, mode='r', encoding=data.encoding, errors=data.encoding_errors) as the_file:
+            resp = ''.join(the_file.readlines())
+    except UnicodeDecodeError:
+        # Binary File/
+        with open(data.input_data, 'rb') as the_file:
+            resp = the_file.read()
+    if not resp:
+        raise ValueError(PhExceptionHelper(msg_key=Constants.INPUT_FILE_EMPTY))
+    return resp
 
 
-def write_output_file(output_file_name, parsed_data):
-    with open(output_file_name, 'w') as file:
-        file.writelines(parsed_data)
+def write_output_file(data, meta_data, info_data):
+    data_to_write = meta_data.parsed_data
+    data_to_write = PhUtil.set_if_none(data_to_write, PhConstants.STR_EMPTY)
+    with open(meta_data.output_file_path, mode='w', encoding=data.encoding, errors=data.encoding_errors) as file:
+        file.writelines(data_to_write)

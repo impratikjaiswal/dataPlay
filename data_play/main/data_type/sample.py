@@ -4,6 +4,7 @@ from data_play.main.data_type.data_type_master import DataTypeMaster
 from data_play.main.helper.data import Data
 from data_play.main.helper.folders import Folders
 from data_play.main.helper.searchdata import SearchAndReplaceData
+from python_helpers.ph_constants import PhConstants
 from python_helpers.ph_keys import PhKeys
 from python_helpers.ph_util import PhUtil
 
@@ -47,8 +48,33 @@ class Sample(DataTypeMaster):
         super().set_name_mappings(name_mappings)
 
     def set_data_pool(self):
+
+        content_mappings_test = [
+            {
+                PhKeys.INCLUDE_SEARCH_PATTERN: 'Copy ',
+                PhKeys.REPLACE_WITH: 'Paste ',
+            },
+            {
+                PhKeys.INCLUDE_SEARCH_PATTERN: '"title"',
+                PhKeys.REPLACE_WITH: '"sir_name"',
+            },
+            {
+            },
+        ]
+
+        name_mappings_test = [
+            {
+                PhKeys.INCLUDE_SEARCH_PATTERN: '1',
+                PhKeys.REPLACE_WITH: '11',
+            },
+            {
+                PhKeys.INCLUDE_SEARCH_PATTERN: '2',
+                PhKeys.REPLACE_WITH: '22',
+            },
+        ]
+
         data_pool = [
-            #
+
             Data(
                 remarks='Miscellaneous Files; SearchAndReplaceData Object',
                 input_data=Folders.in_user_gen(),
@@ -67,32 +93,29 @@ class Sample(DataTypeMaster):
             Data(
                 remarks='Miscellaneous Files; Dictionary',
                 input_data=Folders.in_user_gen(),
-                content_mappings=[
-                    {
-                        PhKeys.INCLUDE_SEARCH_PATTERN: 'Copy ',
-                        PhKeys.REPLACE_WITH: 'Paste ',
-                    },
-                    {
-                        PhKeys.INCLUDE_SEARCH_PATTERN: '"title"',
-                        PhKeys.REPLACE_WITH: '"sir_name"',
-                    },
-                    {
-                    },
-                ],
-                name_mappings=[
-                    {
-                        PhKeys.INCLUDE_SEARCH_PATTERN: 'Generic',
-                        PhKeys.REPLACE_WITH: 'Generic_output_dic',
-                    },
-                    {
-                        PhKeys.INCLUDE_SEARCH_PATTERN: '1',
-                        PhKeys.REPLACE_WITH: '11',
-                    },
-                    {
-                        PhKeys.INCLUDE_SEARCH_PATTERN: '2',
-                        PhKeys.REPLACE_WITH: '22',
-                    },
-                ]
+                content_mappings=content_mappings_test,
+                name_mappings=name_mappings_test +
+                              [
+                                  {
+                                      PhKeys.INCLUDE_SEARCH_PATTERN: 'Generic',
+                                      PhKeys.REPLACE_WITH: 'Generic_output_dic',
+                                  },
+                              ],
+            ),
+
+            Data(
+                remarks='Miscellaneous Files; Dictionary; Encoding UTF8',
+                input_data=Folders.in_user_gen(),
+                content_mappings=content_mappings_test,
+                name_mappings=name_mappings_test +
+                              [
+                                  {
+                                      PhKeys.INCLUDE_SEARCH_PATTERN: 'Generic',
+                                      PhKeys.REPLACE_WITH: 'Generic_output_dic_encoding',
+                                  },
+                              ],
+                encoding=PhConstants.STR_ENCODING_FORMAT_UTF8,
+                encoding_errors=PhConstants.STR_ENCODING_ERROR_HANDLING_REPLACE,
             )
         ]
         super().set_data_pool(data_pool)

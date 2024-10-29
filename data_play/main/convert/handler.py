@@ -2,9 +2,18 @@ import copy
 
 from data_play.main.helper.searchdata import SearchAndReplaceData
 from python_helpers.ph_keys import PhKeys
+from python_helpers.ph_util import PhUtil
 
 
 def process_mappings(input_data, mappings):
+    """
+    
+    :param input_data:
+    :param mappings:
+    :return:
+    """
+    if PhUtil.is_empty(input_data):
+        return input_data
     output_data = copy.deepcopy(input_data)
     for mapping in mappings:
         if isinstance(mapping, dict):

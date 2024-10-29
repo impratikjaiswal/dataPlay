@@ -15,5 +15,5 @@ class Defaults:
     NAME_MAPPINGS = PhConstants.LIST_EMPTY
     SEARCH_PATTERN = PhConstants.STR_EMPTY
     SEARCH_PATTERN_TYPE = SearchPatterns.NORMAL
-    ENCODING = True
-    ENCODING_ERRORS = True
+    ENCODING = None
+    ENCODING_ERRORS = None

@@ -3,10 +3,8 @@ import os
 
 from data_play.main.convert import converter
 from data_play.main.convert.handler import process_data
-from data_play.main.helper.constants import Constants
 from data_play.main.helper.metadata import MetaData
 from python_helpers.ph_constants import PhConstants
-from python_helpers.ph_exception_helper import PhExceptionHelper
 from python_helpers.ph_keys import PhKeys
 from python_helpers.ph_util import PhUtil
 
@@ -14,6 +12,7 @@ from python_helpers.ph_util import PhUtil
 def process_all_data_types(data, meta_data=None, info_data=None):
     """
 
+    :param info_data:
     :param meta_data:
     :param data:
     :return:
@@ -67,15 +66,7 @@ def process_all_data_types(data, meta_data=None, info_data=None):
     PhUtil.print_heading(data.get_remarks_as_str(), heading_level=2)
     if data.input_data and os.path.isfile(data.input_data):
         # file is provided
-        try:
-            with open(data.input_data, 'r') as the_file:
-                resp = ''.join(the_file.readlines())
-        except UnicodeDecodeError:
-            # Binary File
-            with open(data.input_data, 'rb') as the_file:
-                resp = the_file.read()
-        if not resp:
-            raise ValueError(PhExceptionHelper(msg_key=Constants.INPUT_FILE_EMPTY))
+        resp = converter.read_input_file(data=data, meta_data=meta_data, info_data=info_data)
         # Treat all Files Equally; including YML
         meta_data.input_mode_key = PhKeys.INPUT_FILE
         meta_data.input_file_path = data.input_data
@@ -95,5 +86,5 @@ def process_all_data_types(data, meta_data=None, info_data=None):
     converter.print_data(data=data, meta_data=meta_data, info_data=info_data)
     if meta_data.output_file_path:
         PhUtil.make_dirs(file_path=meta_data.output_file_path, quite_mode=True)
-        converter.write_output_file(meta_data.output_file_path, meta_data.parsed_data)
+        converter.write_output_file(data=data, meta_data=meta_data, info_data=info_data)
     return meta_data.parsed_data
