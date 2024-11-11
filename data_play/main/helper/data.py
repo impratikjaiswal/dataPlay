@@ -5,7 +5,7 @@ from python_helpers.ph_util import PhUtil
 
 class Data:
     def __init__(self,
-                 # Common Params
+                 # Common Param
                  input_data=None,
                  print_input=None,
                  print_output=None,
@@ -14,18 +14,18 @@ class Data:
                  remarks=[],
                  encoding=None,
                  encoding_errors=None,
-                 # Custom Params
-                 # List of file content replace mappings
+                 archive_output=None,
+                 archive_output_format=None,
+                 # Specific Param
                  content_mappings=None,
-                 # List of file name replace mappings
                  name_mappings=None,
-                 # Unknown Params
+                 # Unknown Param
                  **kwargs,
                  ):
         """
         Instantiate the Data Object for further Processing.
 
-        :param input_data: Input Data
+        :param input_data: Input Data; File Path(s), Dir Paths(s)
         :param print_input: Printing of input needed?
         :param print_output: Printing of output needed?
         :param print_info:  Printing of info needed?
@@ -33,8 +33,10 @@ class Data:
         :param remarks: Remarks for Input Data
         :param encoding: Encoding for Input/Output Data
         :param encoding_errors: Encoding Errors Handling for Input/Output Data
-        :param content_mappings: Required Content Mappings (if any)
-        :param name_mappings: Required Name Mappings (if any)
+        :param archive_output: Archiving of output needed?
+        :param archive_output_format: Archive Output Format
+        :param content_mappings: Required Content Mappings (if any); List of file content replace mappings
+        :param name_mappings: Required Name Mappings (if any); List of file name replace mappings
         :param kwargs: To Handle unwanted/deprecated/internal/additional arguments (See Description)
         ----------
 
@@ -53,6 +55,8 @@ class Data:
         self.remarks = remarks
         self.encoding = encoding
         self.encoding_errors = encoding_errors
+        self.archive_output = archive_output
+        self.archive_output_format = archive_output_format
         self.content_mappings = content_mappings
         self.name_mappings = name_mappings
         # Handle kwargs

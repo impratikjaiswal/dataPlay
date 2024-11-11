@@ -1,12 +1,14 @@
 import copy
 import os
 
-from data_play.main.convert import converter
-from data_play.main.convert.handler import process_data
-from data_play.main.helper.metadata import MetaData
 from python_helpers.ph_constants import PhConstants
 from python_helpers.ph_keys import PhKeys
 from python_helpers.ph_util import PhUtil
+
+from data_play.main.convert import converter
+from data_play.main.convert.handler import process_data
+from data_play.main.helper.infodata import InfoData
+from data_play.main.helper.metadata import MetaData
 
 
 def process_all_data_types(data, meta_data=None, info_data=None):
@@ -20,12 +22,21 @@ def process_all_data_types(data, meta_data=None, info_data=None):
     """
     Bulk Data Handling (Recursive)
     """
-    converter.set_defaults_for_printing(data)
+    converter.set_defaults_for_common_objects(data)
     if meta_data is None:
         meta_data = MetaData(input_data_org=data.input_data)
+    if info_data is None:
+        info_data = InfoData()
+    multiple_inputs = False
     if isinstance(data.input_data, list):
         # List is provided
+        multiple_inputs = True
         meta_data.input_mode_key = PhKeys.INPUT_LIST
+    if isinstance(data.input_data, tuple):
+        # CUI (Click) Multi is a tuple
+        multiple_inputs = True
+        meta_data.input_mode_key = PhKeys.INPUT_TUPLE
+    if multiple_inputs:
         data.append_input_modes_hierarchy(meta_data.input_mode_key)
         data.set_auto_generated_remarks_if_needed()
         data.set_one_time_remarks(f'({len(data.input_data)} Elements)')
@@ -50,6 +61,7 @@ def process_all_data_types(data, meta_data=None, info_data=None):
         meta_data.input_mode_key = PhKeys.INPUT_DIR
         data.append_input_modes_hierarchy(meta_data.input_mode_key)
         PhUtil.print_heading(data.get_remarks_as_str(), heading_level=3)
+        converter.set_defaults(data, meta_data)
         converter.print_data(data, meta_data)
         converter.set_includes_excludes_files(data, meta_data)
         files_list = PhUtil.traverse_it(top=os.path.abspath(data.input_data), traverse_mode='Regex',
@@ -85,6 +97,6 @@ def process_all_data_types(data, meta_data=None, info_data=None):
     process_data(data=data, meta_data=meta_data, info_data=info_data)
     converter.print_data(data=data, meta_data=meta_data, info_data=info_data)
     if meta_data.output_file_path:
-        PhUtil.make_dirs(file_path=meta_data.output_file_path, quite_mode=True)
+        PhUtil.make_dirs(file_path=meta_data.output_file_path)
         converter.write_output_file(data=data, meta_data=meta_data, info_data=info_data)
     return meta_data.parsed_data

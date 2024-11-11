@@ -1,5 +1,6 @@
-from data_play.main.helper.defaults import Defaults
 from python_helpers.ph_util import PhUtil
+
+from data_play.main.helper.defaults import Defaults
 
 
 class SearchAndReplaceData:

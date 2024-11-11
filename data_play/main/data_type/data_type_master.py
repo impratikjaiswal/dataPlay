@@ -2,21 +2,24 @@ import binascii
 import subprocess
 import traceback
 
+from python_helpers.ph_constants import PhConstants
+from python_helpers.ph_data_master import PhMasterData, PhMasterDataKeys
+from python_helpers.ph_exception_helper import PhExceptionHelper
+from python_helpers.ph_keys import PhKeys
+from python_helpers.ph_modes_error_handling import PhErrorHandlingModes
+from python_helpers.ph_util import PhUtil
+
 from data_play.main.convert import converter
 from data_play.main.convert.converter import read_web_request, set_defaults
 from data_play.main.convert.parser import process_all_data_types
 from data_play.main.helper.data import Data
 from data_play.main.helper.infodata import InfoData
 from data_play.main.helper.metadata import MetaData
-from python_helpers.ph_constants import PhConstants
-from python_helpers.ph_data_master import PhMasterData, PhMasterDataKeys
-from python_helpers.ph_exception_helper import PhExceptionHelper
-from python_helpers.ph_keys import PhKeys
-from python_helpers.ph_modes_error_handling import PhErrorHandlingModes
 
 
 class DataTypeMaster(object):
     def __init__(self):
+        # Common Objects
         self.print_input = None
         self.print_output = None
         self.print_info = None
@@ -24,6 +27,9 @@ class DataTypeMaster(object):
         self.remarks = None
         self.encoding = None
         self.encoding_errors = None
+        self.archive_output = None
+        self.archive_output_format = None
+        # Specific Objects
         self.content_mappings = None
         self.name_mappings = None
         self.data_pool = []
@@ -54,6 +60,12 @@ class DataTypeMaster(object):
 
     def set_encoding_errors(self, encoding_errors):
         self.encoding_errors = encoding_errors
+
+    def set_archive_output(self, archive_output):
+        self.archive_output = archive_output
+
+    def set_archive_output_format(self, archive_output_format):
+        self.archive_output_format = archive_output_format
 
     def set_content_mappings(self, content_mappings):
         self.content_mappings = content_mappings
@@ -139,6 +151,8 @@ class DataTypeMaster(object):
             data.remarks = data.remarks if data.remarks is not None else self.remarks
             data.encoding = data.encoding if data.encoding is not None else self.encoding
             data.encoding_errors = data.encoding_errors if data.encoding_errors is not None else self.encoding_errors
+            data.archive_output = data.archive_output if data.archive_output is not None else self.archive_output
+            data.archive_output_format = data.archive_output_format if data.archive_output_format is not None else self.archive_output_format
             data.content_mappings = data.content_mappings if data.content_mappings is not None else self.content_mappings
             data.name_mappings = data.name_mappings if data.name_mappings is not None else self.name_mappings
         else:
@@ -151,6 +165,8 @@ class DataTypeMaster(object):
                 remarks=self.remarks,
                 encoding=self.encoding,
                 encoding_errors=self.encoding_errors,
+                archive_output=self.archive_output,
+                archive_output_format=self.archive_output_format,
                 content_mappings=self.content_mappings,
                 name_mappings=self.name_mappings,
             )
@@ -173,12 +189,15 @@ class DataTypeMaster(object):
         :return:
         """
         set_defaults(data, None)
-        return {
+        common_data = {
             PhKeys.INPUT_DATA: data.input_data,
             PhKeys.REMARKS: data.get_remarks_as_str(),
             PhKeys.DATA_GROUP: data.data_group,
             PhKeys.ENCODING: data.encoding,
             PhKeys.ENCODING_ERRORS: data.encoding_errors,
+            PhKeys.ARCHIVE_OUTPUT: data.archive_output,
+            PhKeys.ARCHIVE_OUTPUT_FORMAT: data.archive_output_format,
             PhKeys.CONTENT_MAPPINGS: data.content_mappings,
             PhKeys.NAME_MAPPINGS: data.name_mappings,
         }
+        return PhUtil.dict_clean(common_data)

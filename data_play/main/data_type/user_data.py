@@ -1,6 +1,5 @@
 from data_play.main.data_type.data_type_master import DataTypeMaster
 from data_play.main.helper.data import Data
-from data_play.main.helper.searchdata import SearchAndReplaceData
 
 
 class UserData(DataTypeMaster):
@@ -33,6 +32,14 @@ class UserData(DataTypeMaster):
         encoding_errors = None
         super().set_encoding_errors(encoding_errors)
 
+    def set_archive_output(self):
+        archive_output = None
+        super().set_archive_output(archive_output)
+
+    def set_archive_output_format(self):
+        archive_output_format = None
+        super().set_archive_output_format(archive_output_format)
+
     def set_content_mappings(self):
         content_mappings = None
         super().set_content_mappings(content_mappings)
@@ -45,11 +52,13 @@ class UserData(DataTypeMaster):
         data_pool = [
             #
             Data(
-                remarks='Simple Data Provided in Text; Dictionary',
-                input_data='86020102',
+                remarks='Single Line Data; Dictionary',
+                input_data='The quick brown fox jumps over the lazy dog',
                 content_mappings=[
-                    {'02': '22'},
+                    {'brown': 'black'},
+                    {'dog': 'cat'},
                 ]
             ),
+            #
         ]
         super().set_data_pool(data_pool)

@@ -1,11 +1,14 @@
 import copy
 
-from data_play.main.helper.searchdata import SearchAndReplaceData
+from python_helpers.ph_constants import PhConstants
+from python_helpers.ph_exception_helper import PhExceptionHelper
 from python_helpers.ph_keys import PhKeys
 from python_helpers.ph_util import PhUtil
 
+from data_play.main.helper.searchdata import SearchAndReplaceData
 
-def process_mappings(input_data, mappings):
+
+def handle_mappings(input_data, mappings, info_data):
     """
 
     :param input_data:
@@ -39,12 +42,13 @@ def process_data(data, meta_data, info_data, flip_output=False):
 
     :param data:
     :param meta_data:
+    :param info_data:
     :param flip_output:
     :return:
     """
     input_data = data.input_data
-    content_mappings = data.content_mappings
     input_File_path = meta_data.input_data_org if meta_data.input_mode_key == PhKeys.INPUT_FILE else None
+    content_mappings = data.content_mappings
     name_mappings = data.name_mappings
     # input_format = data.input_format
     # output_format = data.output_format
@@ -54,12 +58,15 @@ def process_data(data, meta_data, info_data, flip_output=False):
     #     output_format = data.input_format
     # parse_only = True
     # asn1_element = data.asn1_element
-    res = process_mappings(input_data=input_data, mappings=content_mappings)
+    if not data.input_data:
+        raise ValueError(PhExceptionHelper(msg_key=PhConstants.MISSING_INPUT_DATA))
+    # Handle Content Mappings
+    res = handle_mappings(input_data=input_data, mappings=content_mappings, info_data=info_data)
     if flip_output is True:
         meta_data.re_parsed_data = res
     else:
         meta_data.parsed_data = res
+    # Handle Name Mappings
     if input_File_path:
-        res = process_mappings(input_data=input_File_path, mappings=name_mappings)
+        res = handle_mappings(input_data=input_File_path, mappings=name_mappings, info_data=info_data)
         meta_data.output_file_path = res
-    # return res
