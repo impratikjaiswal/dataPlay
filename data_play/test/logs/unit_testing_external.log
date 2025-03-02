@@ -5,20 +5,20 @@ Python executable Path is D:\Other\Github_Self\dataPlay\venv\Scripts
 User Name is Pratik Jaiswal
 User Account is impra
 --------------------------------------------------------------------------------
-Time Stamp is Monday, Nov 11 2024, 09:21:01:657897, IST (GMT+0530)
+Time Stamp is Sunday, Mar 02 2025, 19:48:42:657866, IST (GMT+0530)
 --------------------------------------------------------------------------------
-Git Summary is 4355596;  (HEAD -> main, tag: v1.2.0, origin/main, origin/HEAD); 2024-10-29 14:48:17 +0530; imPratik <impratikjaiswal@gmail.com>; support of shorthand dictionaries
+Git Summary is 260ae1e;  (HEAD -> main, origin/main, origin/HEAD); 2024-12-09 21:50:38 +0530; imPratik <impratikjaiswal@gmail.com>; fav icon changed
 --------------------------------------------------------------------------------
-pythonHelpers version is v5.1.0
+pythonHelpers version is v5.3.1.dev0
 --------------------------------------------------------------------------------
-dataPlay version is v1.3.0
+dataPlay version is v1.4.0
 --------------------------------------------------------------------------------
---------------------------------------------------------- Test ---------------------------------------------------------
+--------------------------------------------------- Data Class: Test ---------------------------------------------------
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 ---------------------------------- Time Details ----------------------------------
-Current Time Stamp: 2024-11-11 09:21:01.668167+05:30
-Execution Time: 00:00:00; Milliseconds: 4.03904914855957
+Current Time Stamp: 2025-03-02 19:48:42.668816+05:30
+Execution Time: 00:00:00; Milliseconds: 5.047798156738281
 Execution Time CPU: 00:00:00; Milliseconds: 0.0
 Timer State: TIMER_OFF
 --------------------------------------------------------------------------------

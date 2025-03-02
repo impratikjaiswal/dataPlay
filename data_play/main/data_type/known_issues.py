@@ -1,8 +1,7 @@
 from data_play.main.data_type.data_type_master import DataTypeMaster
-from data_play.main.helper.data import Data
 
 
-class UserData(DataTypeMaster):
+class KnownIssues(DataTypeMaster):
 
     def __init__(self):
         super().__init__()
@@ -60,16 +59,14 @@ class UserData(DataTypeMaster):
         super().set_name_mappings(name_mappings)
 
     def set_data_pool(self):
-        data_pool = [
-            #
-            Data(
-                remarks='Single Line Data; Dictionary',
-                input_data='The quick brown fox jumps over the lazy dog',
-                content_mappings=[
-                    {'brown': 'black'},
-                    {'dog': 'cat'},
-                ]
-            ),
+        data_pool_high_priority = [
             #
         ]
-        super().set_data_pool(data_pool)
+
+        data_pool_low_priority = [
+            #
+        ]
+        super().set_data_pool(
+            data_pool_high_priority
+            + data_pool_low_priority
+        )

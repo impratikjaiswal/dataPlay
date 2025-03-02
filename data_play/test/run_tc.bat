@@ -17,6 +17,7 @@ echo "cli_--help"
 
 cd ..
 cd ..
+if not exist "data_play/test/logs/" MD "data_play/test/logs/"
 cd scripts
 call activate_vir_env.bat
 cd ..

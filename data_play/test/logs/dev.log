@@ -5,18 +5,340 @@ Python executable Path is D:\Other\Github_Self\dataPlay\venv\Scripts
 User Name is Pratik Jaiswal
 User Account is impra
 --------------------------------------------------------------------------------
-Time Stamp is Monday, Nov 11 2024, 09:21:00:700264, IST (GMT+0530)
+Time Stamp is Sunday, Mar 02 2025, 19:48:40:434572, IST (GMT+0530)
 --------------------------------------------------------------------------------
-Git Summary is 4355596;  (HEAD -> main, tag: v1.2.0, origin/main, origin/HEAD); 2024-10-29 14:48:17 +0530; imPratik <impratikjaiswal@gmail.com>; support of shorthand dictionaries
+Git Summary is 260ae1e;  (HEAD -> main, origin/main, origin/HEAD); 2024-12-09 21:50:38 +0530; imPratik <impratikjaiswal@gmail.com>; fav icon changed
 --------------------------------------------------------------------------------
-pythonHelpers version is v5.1.0
+pythonHelpers version is v5.3.1.dev0
 --------------------------------------------------------------------------------
-dataPlay version is v1.3.0
+dataPlay version is v1.4.0
 --------------------------------------------------------------------------------
----------------------------------------------------------- Dev ---------------------------------------------------------
+---------------------------------------------------- Data Class: Dev ---------------------------------------------------
+*************************************************** Sample Java Code ***************************************************
+len temp: 2806
+start_char_list [237, 399, 583, 714, 827, 1026, 1062, 1135, 1297, 1417, 1612, 1640, 1714, 1887, 1923, 1996, 2183, 2321, 2490, 2639, 2770]
+end_char_list [405, 645, 909, 943, 1112, 1481, 1495, 1534, 1540, 1690, 1788, 1830, 1973, 2065, 2107, 2243, 2411, 2557, 2719, 2803, 2805]
+start_char_list_len 21
+end_char_list_len 21
+next_offset 2806
+next_offset 2806
+Remarks: Sample Java Code
+Info => Transaction Id: ayczxflfsyly; Content Mappings: [{'include_search_pattern': 'String toHexString', 'include_start_block_pattern': '{', 'include_end_block_pattern': '}', 'delete_block': 'UnKnown'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Input Data: 
+package amenitypj.cardtools.api.util;
+
+import java.math.BigInteger;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
+
+/**
+ * Offers various conversion methods.
+ */
+public class Converter
+{
+    private static boolean hexInCaps;
+
+    private static short counterForByteArray;
+
+    /**
+     * Instantiates a new converter.
+     */
+    Converter( )
+    {
+    }
+
+    /**
+     * Change hex case.
+     *
+     * @param str
+     *            the str
+     * @return the string
+     */
+    private static String changeHexCase( String str )
+    {
+        return ( hexInCaps ? str.toUpperCase() : str );
+    }
+
+    public static String insertBlanks( String source, int n )
+    {
+        String dest = Constants.STR_BLANK;
+        for ( int i = 0; i <= source.length() - n; i += n )
+        {
+            dest += source.substring( i, i + n ) + Constants.STR_SPACE;
+        }
+        return dest.trim();
+    }
+
+    public static String toHexString( char[] ca, boolean withSpace, int n )
+    {
+        if ( ca == null )
+        {
+            return Constants.STR_BLANK;
+        }
+        else
+        {
+            String s = Constants.STR_BLANK;
+            int toConvert = Math.min( n, ca.length );
+            for ( int i = 0; i < toConvert; i++ )
+            {
+                s += changeHexCase( hexAlign( (short)ca[ i ], 1 ) );
+                if ( withSpace )
+                {
+                    s += Constants.STR_SPACE;
+                }
+            }
+            return s.trim();
+        }
+    }
+
+    public static String toHexString( char[] ca, boolean withSpace ) {
+        if ( ca == null ) {
+            return Constants.STR_BLANK;
+        }
+        else 
+        {
+            return ( toHexString( ca, withSpace, ca.length ) );
+        }
+        return Constants.STR_BLANK;
+    }
+
+    public static String toHexString( char[] ca )
+    {
+        if ( ca == null )
+        {
+            return Constants.STR_BLANK;
+        }
+        else
+        {
+            return ( toHexString( ca, true, ca.length ) );
+        }
+        return Constants.STR_BLANK;
+    }
+
+    public static byte toByte( byte nibbleFirst, byte nibbleSecond )
+    {
+        return (byte) ( nibbleFirst | nibbleSecond );
+    }
+
+    public static String toString( Object[] objArray, char charSeparator ) {
+        return toString( (String[])objArray, Constants.STR_BLANK + charSeparator );
+    }
+
+    public static String toString( Object[] objArray, String strSeparator ) {
+        return toString( (String[])objArray, strSeparator );
+    }
+
+    public static String toString( String[] strArray, char charSeparator )
+    {
+        return toString( strArray, Constants.STR_BLANK + charSeparator );
+    }
+
+    public static String toString( char value ) {
+        return "" + value;
+    }
+}
+Input Data Length: 2806
+--------------------------------------------------------------------------------
+************************************************** Sample Groovy Code **************************************************
+len temp: 2780
+start_char_list [374, 558, 689, 802, 1001, 1037, 1110, 1272, 1392, 1587, 1615, 1689, 1862, 1898, 1971, 2158, 2296, 2465, 2614, 2745]
+end_char_list [380, 620, 884, 918, 1087, 1456, 1470, 1509, 1515, 1665, 1763, 1805, 1948, 2040, 2082, 2218, 2386, 2532, 2694, 2778]
+start_char_list_len 20
+end_char_list_len 20
+next_offset 381
+next_offset 387
+len temp: 2393
+start_char_list [171, 302, 415, 614, 650, 723, 885, 1005, 1200, 1228, 1302, 1475, 1511, 1584, 1771, 1909, 2078, 2227, 2358]
+end_char_list [233, 497, 531, 700, 1069, 1083, 1122, 1128, 1278, 1376, 1418, 1561, 1653, 1695, 1831, 1999, 2145, 2307, 2391]
+start_char_list_len 19
+end_char_list_len 19
+next_offset 234
+next_offset 240
+len temp: 2153
+start_char_list [62, 175, 374, 410, 483, 645, 765, 960, 988, 1062, 1235, 1271, 1344, 1531, 1669, 1838, 1987, 2118]
+end_char_list [257, 291, 460, 829, 843, 882, 888, 1038, 1136, 1178, 1321, 1413, 1455, 1591, 1759, 1905, 2067, 2151]
+start_char_list_len 18
+end_char_list_len 18
+next_offset 292
+next_offset 298
+len temp: 1855
+start_char_list [76, 112, 185, 347, 467, 662, 690, 764, 937, 973, 1046, 1233, 1371, 1540, 1689, 1820]
+end_char_list [162, 531, 545, 584, 590, 740, 838, 880, 1023, 1115, 1157, 1293, 1461, 1607, 1769, 1853]
+start_char_list_len 16
+end_char_list_len 16
+next_offset 591
+next_offset 597
+len temp: 1258
+start_char_list [65, 93, 167, 340, 376, 449, 636, 774, 943, 1092, 1223]
+end_char_list [143, 241, 283, 426, 518, 560, 696, 864, 1010, 1172, 1256]
+start_char_list_len 11
+end_char_list_len 11
+next_offset 284
+next_offset 290
+len temp: 968
+start_char_list [50, 86, 159, 346, 484, 653, 802, 933]
+end_char_list [136, 228, 270, 406, 574, 720, 882, 966]
+start_char_list_len 8
+end_char_list_len 8
+next_offset 271
+next_offset 277
+len temp: 691
+start_char_list [69, 207, 376, 525, 656]
+end_char_list [129, 297, 443, 605, 689]
+start_char_list_len 5
+end_char_list_len 5
+next_offset 130
+next_offset 136
+len temp: 555
+start_char_list [71, 240, 389, 520]
+end_char_list [161, 307, 469, 553]
+start_char_list_len 4
+end_char_list_len 4
+next_offset 162
+next_offset 168
+len temp: 387
+start_char_list [72, 221, 352]
+end_char_list [139, 301, 385]
+start_char_list_len 3
+end_char_list_len 3
+next_offset 140
+next_offset 146
+len temp: 241
+start_char_list [75, 206]
+end_char_list [155, 239]
+start_char_list_len 2
+end_char_list_len 2
+next_offset 156
+next_offset 162
+len temp: 79
+start_char_list [44]
+end_char_list [77]
+start_char_list_len 1
+end_char_list_len 1
+next_offset 78
+next_offset 79
+Remarks: Sample Groovy Code
+Info => Transaction Id: dbskteqwgctc; Content Mappings: [{'include_search_pattern': 'String toHexString', 'include_start_block_pattern': '{', 'include_end_block_pattern': '}', 'delete_block': 'UnKnown'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Input Data: 
+package amenitypj.cardtools.api.util;
+
+import java.math.BigInteger;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
+
+/**
+ * Offers various conversion methods.
+ */
+    private static boolean hexInCaps;
+
+    private static short counterForByteArray;
+
+    /**
+     * Instantiates a new converter.
+     */
+    Converter( )
+    {
+    }
+
+    /**
+     * Change hex case.
+     *
+     * @param str
+     *            the str
+     * @return the string
+     */
+    private static String changeHexCase( String str )
+    {
+        return ( hexInCaps ? str.toUpperCase() : str );
+    }
+
+    public static String insertBlanks( String source, int n )
+    {
+        String dest = Constants.STR_BLANK;
+        for ( int i = 0; i <= source.length() - n; i += n )
+        {
+            dest += source.substring( i, i + n ) + Constants.STR_SPACE;
+        }
+        return dest.trim();
+    }
+
+    public static String toHexString( char[] ca, boolean withSpace, int n )
+    {
+        if ( ca == null )
+        {
+            return Constants.STR_BLANK;
+        }
+        else
+        {
+            String s = Constants.STR_BLANK;
+            int toConvert = Math.min( n, ca.length );
+            for ( int i = 0; i < toConvert; i++ )
+            {
+                s += changeHexCase( hexAlign( (short)ca[ i ], 1 ) );
+                if ( withSpace )
+                {
+                    s += Constants.STR_SPACE;
+                }
+            }
+            return s.trim();
+        }
+    }
+
+    public static String toHexString( char[] ca, boolean withSpace ) {
+        if ( ca == null ) {
+            return Constants.STR_BLANK;
+        }
+        else 
+        {
+            return ( toHexString( ca, withSpace, ca.length ) );
+        }
+        return Constants.STR_BLANK;
+    }
+
+    public static String toHexString( char[] ca )
+    {
+        if ( ca == null )
+        {
+            return Constants.STR_BLANK;
+        }
+        else
+        {
+            return ( toHexString( ca, true, ca.length ) );
+        }
+        return Constants.STR_BLANK;
+    }
+
+    public static byte toByte( byte nibbleFirst, byte nibbleSecond )
+    {
+        return (byte) ( nibbleFirst | nibbleSecond );
+    }
+
+    public static String toString( Object[] objArray, char charSeparator ) {
+        return toString( (String[])objArray, Constants.STR_BLANK + charSeparator );
+    }
+
+    public static String toString( Object[] objArray, String strSeparator ) {
+        return toString( (String[])objArray, strSeparator );
+    }
+
+    public static String toString( String[] strArray, char charSeparator )
+    {
+        return toString( strArray, Constants.STR_BLANK + charSeparator );
+    }
+
+    public static String toString( char value ) {
+        return "" + value;
+    }
+
+Input Data Length: 2780
+--------------------------------------------------------------------------------
 ---------------------------------- Time Details ----------------------------------
-Current Time Stamp: 2024-11-11 09:21:00.702266+05:30
-Execution Time: 00:00:00; Milliseconds: 3.9992332458496094
+Current Time Stamp: 2025-03-02 19:48:40.446658+05:30
+Execution Time: 00:00:00; Milliseconds: 6.999731063842773
 Execution Time CPU: 00:00:00; Milliseconds: 0.0
 Timer State: TIMER_OFF
 --------------------------------------------------------------------------------

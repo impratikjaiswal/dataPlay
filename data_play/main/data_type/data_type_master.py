@@ -1,7 +1,7 @@
-import binascii
 import subprocess
 import traceback
 
+import binascii
 from python_helpers.ph_constants import PhConstants
 from python_helpers.ph_data_master import PhMasterData, PhMasterDataKeys
 from python_helpers.ph_exception_helper import PhExceptionHelper
@@ -10,7 +10,7 @@ from python_helpers.ph_modes_error_handling import PhErrorHandlingModes
 from python_helpers.ph_util import PhUtil
 
 from data_play.main.convert import converter
-from data_play.main.convert.converter import read_web_request, set_defaults
+from data_play.main.convert.converter import set_defaults, handle_web_request
 from data_play.main.convert.parser import process_all_data_types
 from data_play.main.helper.data import Data
 from data_play.main.helper.infodata import InfoData
@@ -27,6 +27,8 @@ class DataTypeMaster(object):
         self.remarks = None
         self.encoding = None
         self.encoding_errors = None
+        self.output_path = None
+        self.output_file_name_keyword = None
         self.archive_output = None
         self.archive_output_format = None
         # Specific Objects
@@ -61,6 +63,12 @@ class DataTypeMaster(object):
     def set_encoding_errors(self, encoding_errors):
         self.encoding_errors = encoding_errors
 
+    def set_output_path(self, output_path):
+        self.output_path = output_path
+
+    def set_output_file_name_keyword(self, output_file_name_keyword):
+        self.output_file_name_keyword = output_file_name_keyword
+
     def set_archive_output(self, archive_output):
         self.archive_output = archive_output
 
@@ -87,7 +95,7 @@ class DataTypeMaster(object):
             data = self.data_pool
         if isinstance(data, list):
             """
-            Handle Pool
+            Handle Requests Pool; Multiple Data Request are sent
             """
             for data_item in data:
                 self.process_safe(error_handling_mode=error_handling_mode, data=data_item)
@@ -100,7 +108,7 @@ class DataTypeMaster(object):
                 """
                 Web Form
                 """
-                data = read_web_request(data)
+                data = handle_web_request(data)
             self.__process_safe_individual(data)
         except Exception as e:
             known = False
@@ -151,6 +159,8 @@ class DataTypeMaster(object):
             data.remarks = data.remarks if data.remarks is not None else self.remarks
             data.encoding = data.encoding if data.encoding is not None else self.encoding
             data.encoding_errors = data.encoding_errors if data.encoding_errors is not None else self.encoding_errors
+            data.output_path = data.output_path if data.output_path is not None else self.output_path
+            data.output_file_name_keyword = data.output_file_name_keyword if data.output_file_name_keyword is not None else self.output_file_name_keyword
             data.archive_output = data.archive_output if data.archive_output is not None else self.archive_output
             data.archive_output_format = data.archive_output_format if data.archive_output_format is not None else self.archive_output_format
             data.content_mappings = data.content_mappings if data.content_mappings is not None else self.content_mappings
@@ -165,6 +175,8 @@ class DataTypeMaster(object):
                 remarks=self.remarks,
                 encoding=self.encoding,
                 encoding_errors=self.encoding_errors,
+                output_path=self.output_path,
+                output_file_name_keyword=self.output_file_name_keyword,
                 archive_output=self.archive_output,
                 archive_output_format=self.archive_output_format,
                 content_mappings=self.content_mappings,
@@ -190,14 +202,23 @@ class DataTypeMaster(object):
         """
         set_defaults(data, None)
         common_data = {
+            #
             PhKeys.INPUT_DATA: data.input_data,
+            PhKeys.PRINT_INPUT: data.print_input,
+            PhKeys.PRINT_OUTPUT: data.print_output,
+            PhKeys.PRINT_INFO: data.print_info,
+            PhKeys.QUITE_MODE: data.quite_mode,
             PhKeys.REMARKS: data.get_remarks_as_str(),
-            PhKeys.DATA_GROUP: data.data_group,
             PhKeys.ENCODING: data.encoding,
             PhKeys.ENCODING_ERRORS: data.encoding_errors,
+            PhKeys.OUTPUT_PATH: data.output_path,
+            PhKeys.OUTPUT_FILE_NAME_KEYWORD: data.output_file_name_keyword,
             PhKeys.ARCHIVE_OUTPUT: data.archive_output,
             PhKeys.ARCHIVE_OUTPUT_FORMAT: data.archive_output_format,
+            #
             PhKeys.CONTENT_MAPPINGS: data.content_mappings,
             PhKeys.NAME_MAPPINGS: data.name_mappings,
+            #
+            PhKeys.DATA_GROUP: data.data_group,
         }
         return PhUtil.dict_clean(common_data)
