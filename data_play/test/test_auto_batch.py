@@ -149,12 +149,12 @@ class TestAutoBatch:
         :return:
         """
 
-        def _get_test_data(key, dict_data, cli=False):
+        def _get_test_data(key, dict_data, dict_data_default, cli=False):
             key_name = ('cli_' + key) if cli else PhExecutionModes.get_key_name(key)
             dynamic_data = dict_data.get(key, PhConstants.DICT_EMPTY)
-            for temp_key in TestData.default_data:
+            for temp_key in dict_data_default:
                 if temp_key not in dynamic_data:
-                    dynamic_data[temp_key] = TestData.default_data[temp_key]
+                    dynamic_data[temp_key] = dict_data_default[temp_key]
             static_data = {
                 PhKeys.TEST_CASE_ID: key_name,
                 PhKeys.TEST_CASE_NAME: key_name,
@@ -162,11 +162,12 @@ class TestAutoBatch:
             }
             return PhUtil.dict_merge(static_data, dynamic_data)
 
-        def _test(dict_data, cli=False):
+        def _test(dict_data, dict_data_default, cli=False):
             for index, key in enumerate(dict_data.keys()):
                 if cls.tc_is_not_whitelisted(key):
                     continue
-                test_case_data = _get_test_data(key=key, dict_data=dict_data, cli=cli)
+                test_case_data = _get_test_data(key=key, dict_data=dict_data, dict_data_default=dict_data_default,
+                                                cli=cli)
                 common_data = PhUtil.to_list(PhDos.echo(f'Iteration {index + 1}', wrap_up=True))
                 common_data.extend(PhDos.common_info())
                 cls.test(test_case_data=test_case_data, default_batch_data=common_data, cli=cli)
@@ -178,12 +179,12 @@ class TestAutoBatch:
         """
         Non CLI Tests
         """
-        _test(TestData.dynamic_data)
+        _test(TestData.dynamic_data, TestData.dynamic_data_default)
         """
         CLI Tests
         """
         TestData.generate_dynamic_cli_from_read_me()
-        _test(TestData.dynamic_data_cli, cli=True)
+        _test(TestData.dynamic_data_cli, TestData.dynamic_data_cli_default, cli=True)
 
 
 def main():

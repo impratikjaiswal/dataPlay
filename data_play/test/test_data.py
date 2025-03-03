@@ -35,13 +35,6 @@ class TestData:
             },
     }
 
-    default_data = {
-        PhKeys.VAR_EXECUTION_MODE: 'ALL',
-        PhKeys.VAR_ERROR_HANDLING_MODE: 'CONTINUE_ON_ERROR',
-        PhKeys.VAR_TOP_FOLDER_PATH: '[]',
-    }
-
-    #
     dynamic_data_cli = {
         'no_param':
             {
@@ -55,6 +48,15 @@ class TestData:
 
     read_me_cli_pool = [
     ]
+
+    dynamic_data_default = {
+        PhKeys.VAR_EXECUTION_MODE: 'ALL',
+        PhKeys.VAR_ERROR_HANDLING_MODE: 'CONTINUE_ON_ERROR',
+        PhKeys.VAR_TOP_FOLDER_PATH: '[]',
+    }
+
+    dynamic_data_cli_default = dynamic_data_default.copy()
+    dynamic_data_cli_default.update({PhKeys.VAR_EXECUTION_MODE: 'USER'})
 
     @classmethod
     def generate_dynamic_cli_from_read_me(cls):

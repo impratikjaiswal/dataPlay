@@ -5,9 +5,9 @@ Python executable Path is D:\Other\Github_Self\dataPlay\venv\Scripts
 User Name is Pratik Jaiswal
 User Account is impra
 --------------------------------------------------------------------------------
-Time Stamp is Sunday, Mar 02 2025, 19:48:43:785449, IST (GMT+0530)
+Time Stamp is Monday, Mar 03 2025, 09:07:12:635718, IST (GMT+0530)
 --------------------------------------------------------------------------------
-Git Summary is 260ae1e;  (HEAD -> main, origin/main, origin/HEAD); 2024-12-09 21:50:38 +0530; imPratik <impratikjaiswal@gmail.com>; fav icon changed
+Git Summary is e9f59a6;  (HEAD -> main); 2025-03-02 19:51:54 +0530; imPratik <impratikjaiswal@gmail.com>; logs reorganised
 --------------------------------------------------------------------------------
 pythonHelpers version is v5.3.1.dev0
 --------------------------------------------------------------------------------
@@ -16,7 +16,7 @@ dataPlay version is v1.4.0
 ------------------------------------------------- Data Class: UserData -------------------------------------------------
 ********************************************* Single Line Data; Dictionary *********************************************
 Remarks: Single Line Data; Dictionary
-Info => Transaction Id: vc4egc5juuy4; Content Mappings: [{'brown': 'black'}, {'dog': 'cat'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: sojrd3mgjgqn; Content Mappings: [{'brown': 'black'}, {'dog': 'cat'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: The quick brown fox jumps over the lazy dog
 Input Data Length: 43
 Output Data:
@@ -76,7 +76,7 @@ remarks: Hex Data; Detailed Dictionary
 data_group: Hex Data
 ********************************************* Single Line Data; Dictionary *********************************************
 Remarks: Single Line Data; Dictionary
-Info => Transaction Id: cwx1zppp1ldv; Content Mappings: [{'brown': 'black'}, {'dog': 'cat'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: acfyorq5o3tx; Content Mappings: [{'brown': 'black'}, {'dog': 'cat'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: The quick brown fox jumps over the lazy dog
 Input Data Length: 43
 Output Data:
@@ -85,7 +85,7 @@ Output Data Length: 43
 --------------------------------------------------------------------------------
 ********************************************** Multi line Data; Dictionary *********************************************
 Remarks: Multi line Data; Dictionary
-Info => Transaction Id: 2lj2vjvcowja; Content Mappings: [{'quick': 'fast'}, {'s': 'SSS'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: in58l6681fqh; Content Mappings: [{'quick': 'fast'}, {'s': 'SSS'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: Quick zephyrs blow, vexing daft Jim.
 Bright vixens jump; dozy fowl quack.
 John quickly extemporized five tow bags.
@@ -100,7 +100,7 @@ Output Data Length: 177
 --------------------------------------------------------------------------------
 ***************************************** Multi line Data; Detailed Dictionary *****************************************
 Remarks: Multi line Data; Detailed Dictionary
-Info => Transaction Id: sv2ea2umdhtm; Content Mappings: [{'include_search_pattern': 'quick', 'replace_with': 'fast'}, {'include_search_pattern': 's', 'replace_with': 'SSS'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: nipzlmk9ft45; Content Mappings: [{'include_search_pattern': 'quick', 'replace_with': 'fast'}, {'include_search_pattern': 's', 'replace_with': 'SSS'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: Quick zephyrs blow, vexing daft Jim.
 Bright vixens jump; dozy fowl quack.
 John quickly extemporized five tow bags.
@@ -115,7 +115,7 @@ Output Data Length: 177
 --------------------------------------------------------------------------------
 ************************************************* Hex Data; Dictionary *************************************************
 Remarks: Hex Data; Dictionary
-Info => Transaction Id: 3gu0orh3i69r; Content Mappings: [{'02': '22'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: ow986s19rk4a; Content Mappings: [{'02': '22'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: 8602010287020102
 Input Data Length: 16
 Output Data:
@@ -124,7 +124,7 @@ Output Data Length: 16
 --------------------------------------------------------------------------------
 ********************************************* Hex Data; Detailed Dictionary ********************************************
 Remarks: Hex Data; Detailed Dictionary
-Info => Transaction Id: rs1yiiqouxw8; Content Mappings: [{'include_search_pattern': '02', 'replace_with': '22'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: 5std3fcajgq1; Content Mappings: [{'include_search_pattern': '02', 'replace_with': '22'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: 8602010287020102
 Input Data Length: 16
 Output Data:
@@ -134,7 +134,7 @@ Output Data Length: 16
 ------------------------------------------------ Data Class: UnitTesting -----------------------------------------------
 ********************************************* Single Line Data; Dictionary *********************************************
 Remarks: Single Line Data; Dictionary
-Info => Transaction Id: qgwbt5zvypop; Content Mappings: [{'brown': 'black'}, {'dog': 'cat'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: 6bdtgrlruqee; Content Mappings: [{'brown': 'black'}, {'dog': 'cat'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: The quick brown fox jumps over the lazy dog
 Input Data Length: 43
 Output Data:
@@ -143,7 +143,7 @@ Output Data Length: 43
 --------------------------------------------------------------------------------
 ********************************************** Multi line Data; Dictionary *********************************************
 Remarks: Multi line Data; Dictionary
-Info => Transaction Id: be9fjfcig6b0; Content Mappings: [{'quick': 'fast'}, {'s': 'SSS'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: ojjcs1ld6x27; Content Mappings: [{'quick': 'fast'}, {'s': 'SSS'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: Quick zephyrs blow, vexing daft Jim.
         Bright vixens jump; dozy fowl quack.
         John quickly extemporized five tow bags.
@@ -158,7 +158,7 @@ Output Data Length: 201
 --------------------------------------------------------------------------------
 ***************************************** Multi line Data; Detailed Dictionary *****************************************
 Remarks: Multi line Data; Detailed Dictionary
-Info => Transaction Id: axjw4ju65doo; Content Mappings: [{'include_search_pattern': 'quick', 'replace_with': 'fast'}, {'include_search_pattern': 's', 'replace_with': 'SSS'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: h1h31woo8nie; Content Mappings: [{'include_search_pattern': 'quick', 'replace_with': 'fast'}, {'include_search_pattern': 's', 'replace_with': 'SSS'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: Quick zephyrs blow, vexing daft Jim.
         Bright vixens jump; dozy fowl quack.
         John quickly extemporized five tow bags.
@@ -173,7 +173,7 @@ Output Data Length: 201
 --------------------------------------------------------------------------------
 ************************************************* Hex Data; Dictionary *************************************************
 Remarks: Hex Data; Dictionary
-Info => Transaction Id: qc2c4tvtfhxw; Content Mappings: [{'02': '22'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: jxkse1mqh0uv; Content Mappings: [{'02': '22'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: 8602010287020102
 Input Data Length: 16
 Output Data:
@@ -182,13 +182,13 @@ Output Data Length: 16
 --------------------------------------------------------------------------------
 ++++++++++++++++++++++++++++++++++++++++++++ List; Dictionary; (4 Elements) ++++++++++++++++++++++++++++++++++++++++++++
 Remarks: List; Dictionary
-Info => Transaction Id: siisgy31ya3t; Content Mappings: [{'brown': 'black'}, {'dog': 'cat'}, {'quick': 'fast'}, {'s': 'SSS'}, {'include_search_pattern': '02', 'replace_with': '22'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: xxgpo17ypp0c; Content Mappings: [{'brown': 'black'}, {'dog': 'cat'}, {'quick': 'fast'}, {'s': 'SSS'}, {'include_search_pattern': '02', 'replace_with': '22'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: ['8602010287020102', 'The quick brown fox jumps over the lazy dog', 'Quick zephyrs blow, vexing daft Jim.\n        Bright vixens jump; dozy fowl quack.\n        John quickly extemporized five tow bags.\n        By Jove, my quick study of lexicography won a prize!', '8602010287020102']
 Input Data Length: 285
 --------------------------------------------------------------------------------
 *********************************************** List; Dictionary; Item 1 ***********************************************
 Remarks: List; Dictionary
-Info => Transaction Id: z8u1cm5cprg0; Content Mappings: [{'brown': 'black'}, {'dog': 'cat'}, {'quick': 'fast'}, {'s': 'SSS'}, {'include_search_pattern': '02', 'replace_with': '22'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: pntd8xdpiw11; Content Mappings: [{'brown': 'black'}, {'dog': 'cat'}, {'quick': 'fast'}, {'s': 'SSS'}, {'include_search_pattern': '02', 'replace_with': '22'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: 8602010287020102
 Input Data Length: 16
 Output Data:
@@ -197,7 +197,7 @@ Output Data Length: 16
 --------------------------------------------------------------------------------
 *********************************************** List; Dictionary; Item 2 ***********************************************
 Remarks: List; Dictionary
-Info => Transaction Id: tmrgzbhyztfo; Content Mappings: [{'brown': 'black'}, {'dog': 'cat'}, {'quick': 'fast'}, {'s': 'SSS'}, {'include_search_pattern': '02', 'replace_with': '22'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: mqhm2a6qevju; Content Mappings: [{'brown': 'black'}, {'dog': 'cat'}, {'quick': 'fast'}, {'s': 'SSS'}, {'include_search_pattern': '02', 'replace_with': '22'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: The quick brown fox jumps over the lazy dog
 Input Data Length: 43
 Output Data:
@@ -206,7 +206,7 @@ Output Data Length: 46
 --------------------------------------------------------------------------------
 *********************************************** List; Dictionary; Item 3 ***********************************************
 Remarks: List; Dictionary
-Info => Transaction Id: gkb495cqgs5j; Content Mappings: [{'brown': 'black'}, {'dog': 'cat'}, {'quick': 'fast'}, {'s': 'SSS'}, {'include_search_pattern': '02', 'replace_with': '22'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: 9go8ngl7499r; Content Mappings: [{'brown': 'black'}, {'dog': 'cat'}, {'quick': 'fast'}, {'s': 'SSS'}, {'include_search_pattern': '02', 'replace_with': '22'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: Quick zephyrs blow, vexing daft Jim.
         Bright vixens jump; dozy fowl quack.
         John quickly extemporized five tow bags.
@@ -221,7 +221,7 @@ Output Data Length: 201
 --------------------------------------------------------------------------------
 *********************************************** List; Dictionary; Item 4 ***********************************************
 Remarks: List; Dictionary
-Info => Transaction Id: y1qus9buenw9; Content Mappings: [{'brown': 'black'}, {'dog': 'cat'}, {'quick': 'fast'}, {'s': 'SSS'}, {'include_search_pattern': '02', 'replace_with': '22'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: hz8heafic17o; Content Mappings: [{'brown': 'black'}, {'dog': 'cat'}, {'quick': 'fast'}, {'s': 'SSS'}, {'include_search_pattern': '02', 'replace_with': '22'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: 8602010287020102
 Input Data Length: 16
 Output Data:
@@ -230,7 +230,7 @@ Output Data Length: 16
 --------------------------------------------------------------------------------
 ***************************************** Hex Data; SearchAndReplaceData Object ****************************************
 Remarks: Hex Data; SearchAndReplaceData Object
-Info => Transaction Id: u0mf54v8l3yu; Content Mappings: [<data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210C7DCD0>]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: ed8ip416utrv; Content Mappings: [<data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342BECD0>]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: 8602010287020102
 Input Data Length: 16
 Output Data:
@@ -239,7 +239,7 @@ Output Data Length: 16
 --------------------------------------------------------------------------------
 +++++++++++++++++++++++++++++++++++++ Miscellaneous Files; Dictionary only content +++++++++++++++++++++++++++++++++++++
 Remarks: Miscellaneous Files; Dictionary only content
-Info => Transaction Id: t9mgojp0dhri; Content Mappings: [{'Copy ': 'Paste '}, {'"title"': '"sir_name"'}, {'': ''}, {'Fantasy': 'Horror'}, {'svg': 'jpeg'}, {'SVG': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\dic_content'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: gijmi7o3sgv3; Content Mappings: [{'Copy ': 'Paste '}, {'"title"': '"sir_name"'}, {'': ''}, {'Fantasy': 'Horror'}, {'svg': 'jpeg'}, {'SVG': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\dic_content'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: data\user_data\Generic
 Input Data Length: 22
 --------------------------------------------------------------------------------
@@ -250,13 +250,13 @@ include_dirs: []
 excludes: ['*_output.*']
 ++++++++++++++++++++++++++++++ Miscellaneous Files; Dictionary only content; (15 Elements) +++++++++++++++++++++++++++++
 Remarks: Miscellaneous Files; Dictionary only content
-Info => Transaction Id: s5zsetmc9cg3; Content Mappings: [{'Copy ': 'Paste '}, {'"title"': '"sir_name"'}, {'': ''}, {'Fantasy': 'Horror'}, {'svg': 'jpeg'}, {'SVG': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\dic_content'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: fyb5wnif8gss; Content Mappings: [{'Copy ': 'Paste '}, {'"title"': '"sir_name"'}, {'': ''}, {'Fantasy': 'Horror'}, {'svg': 'jpeg'}, {'SVG': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\dic_content'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: ['D:\\Other\\Github_Self\\dataPlay\\data\\user_data\\Generic\\Json\\1.json', 'D:\\Other\\Github_Self\\dataPlay\\data\\user_data\\Generic\\Json\\2.json', 'D:\\Other\\Github_Self\\dataPlay\\data\\user_data\\Generic\\Json\\3.json', 'D:\\Other\\Github_Self\\dataPlay\\data\\user_data\\Generic\\Json\\4.json', 'D:\\Other\\Github_Self\\dataPlay\\data\\user_data\\Generic\\Json\\5.json', 'D:\\Other\\Github_Self\\dataPlay\\data\\user_data\\Generic\\python\\test.py', 'D:\\Other\\Github_Self\\dataPlay\\data\\user_data\\Generic\\XML\\1.xml', 'D:\\Other\\Github_Self\\dataPlay\\data\\user_data\\Generic\\XML\\2.xml', 'D:\\Other\\Github_Self\\dataPlay\\data\\user_data\\Generic\\XML\\3.xml', 'D:\\Other\\Github_Self\\dataPlay\\data\\user_data\\Generic\\XML\\4.xml', 'D:\\Other\\Github_Self\\dataPlay\\data\\user_data\\Generic\\XML\\5.xml', 'D:\\Other\\Github_Self\\dataPlay\\data\\user_data\\Generic\\XML\\books.xml', 'D:\\Other\\Github_Self\\dataPlay\\data\\user_data\\Generic\\XML\\note.xml', 'D:\\Other\\Github_Self\\dataPlay\\data\\user_data\\Generic\\XML\\sitemap.xml', 'D:\\Other\\Github_Self\\dataPlay\\data\\user_data\\Generic\\YML\\hex_to_ascii_exp.yml']
 Input Data Length: 1153
 --------------------------------------------------------------------------------
 ********************************* Miscellaneous Files; Dictionary only content; Item 1 *********************************
 Remarks: Miscellaneous Files; Dictionary only content
-Info => Transaction Id: gy6fkpgwkgvr; Content Mappings: [{'Copy ': 'Paste '}, {'"title"': '"sir_name"'}, {'': ''}, {'Fantasy': 'Horror'}, {'svg': 'jpeg'}, {'SVG': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\dic_content'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: v5bve73l0hqz; Content Mappings: [{'Copy ': 'Paste '}, {'"title"': '"sir_name"'}, {'': ''}, {'Fantasy': 'Horror'}, {'svg': 'jpeg'}, {'SVG': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\dic_content'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\dataPlay\data\user_data\Generic\Json\1.json
 Input Data Length: 64
 Output Data:
@@ -286,7 +286,7 @@ Output Data Length: 588
 --------------------------------------------------------------------------------
 ********************************* Miscellaneous Files; Dictionary only content; Item 2 *********************************
 Remarks: Miscellaneous Files; Dictionary only content
-Info => Transaction Id: ffvhxexpxz5k; Content Mappings: [{'Copy ': 'Paste '}, {'"title"': '"sir_name"'}, {'': ''}, {'Fantasy': 'Horror'}, {'svg': 'jpeg'}, {'SVG': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\dic_content'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: o7ea0r8qfjq8; Content Mappings: [{'Copy ': 'Paste '}, {'"title"': '"sir_name"'}, {'': ''}, {'Fantasy': 'Horror'}, {'svg': 'jpeg'}, {'SVG': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\dic_content'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\dataPlay\data\user_data\Generic\Json\2.json
 Input Data Length: 64
 Output Data:
@@ -305,7 +305,7 @@ Output Data Length: 241
 --------------------------------------------------------------------------------
 ********************************* Miscellaneous Files; Dictionary only content; Item 3 *********************************
 Remarks: Miscellaneous Files; Dictionary only content
-Info => Transaction Id: cydinc7d6nwr; Content Mappings: [{'Copy ': 'Paste '}, {'"title"': '"sir_name"'}, {'': ''}, {'Fantasy': 'Horror'}, {'svg': 'jpeg'}, {'SVG': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\dic_content'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: 831luywx98ln; Content Mappings: [{'Copy ': 'Paste '}, {'"title"': '"sir_name"'}, {'': ''}, {'Fantasy': 'Horror'}, {'svg': 'jpeg'}, {'SVG': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\dic_content'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\dataPlay\data\user_data\Generic\Json\3.json
 Input Data Length: 64
 Output Data:
@@ -340,7 +340,7 @@ Output Data Length: 609
 --------------------------------------------------------------------------------
 ********************************* Miscellaneous Files; Dictionary only content; Item 4 *********************************
 Remarks: Miscellaneous Files; Dictionary only content
-Info => Transaction Id: 0d9zge8sphjp; Content Mappings: [{'Copy ': 'Paste '}, {'"title"': '"sir_name"'}, {'': ''}, {'Fantasy': 'Horror'}, {'svg': 'jpeg'}, {'SVG': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\dic_content'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: 6fdeahkel3sw; Content Mappings: [{'Copy ': 'Paste '}, {'"title"': '"sir_name"'}, {'': ''}, {'Fantasy': 'Horror'}, {'svg': 'jpeg'}, {'SVG': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\dic_content'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\dataPlay\data\user_data\Generic\Json\4.json
 Input Data Length: 64
 Output Data:
@@ -436,7 +436,7 @@ Output Data Length: 3467
 --------------------------------------------------------------------------------
 ********************************* Miscellaneous Files; Dictionary only content; Item 5 *********************************
 Remarks: Miscellaneous Files; Dictionary only content
-Info => Transaction Id: jbqzja92xtd3; Content Mappings: [{'Copy ': 'Paste '}, {'"title"': '"sir_name"'}, {'': ''}, {'Fantasy': 'Horror'}, {'svg': 'jpeg'}, {'SVG': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\dic_content'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: pzvpn08wf2i3; Content Mappings: [{'Copy ': 'Paste '}, {'"title"': '"sir_name"'}, {'': ''}, {'Fantasy': 'Horror'}, {'svg': 'jpeg'}, {'SVG': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\dic_content'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\dataPlay\data\user_data\Generic\Json\5.json
 Input Data Length: 64
 Output Data:
@@ -471,7 +471,7 @@ Output Data Length: 874
 --------------------------------------------------------------------------------
 ********************************* Miscellaneous Files; Dictionary only content; Item 6 *********************************
 Remarks: Miscellaneous Files; Dictionary only content
-Info => Transaction Id: njn4e9uyntop; Content Mappings: [{'Copy ': 'Paste '}, {'"title"': '"sir_name"'}, {'': ''}, {'Fantasy': 'Horror'}, {'svg': 'jpeg'}, {'SVG': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\dic_content'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: pnv1pbxfr0yt; Content Mappings: [{'Copy ': 'Paste '}, {'"title"': '"sir_name"'}, {'': ''}, {'Fantasy': 'Horror'}, {'svg': 'jpeg'}, {'SVG': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\dic_content'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\dataPlay\data\user_data\Generic\python\test.py
 Input Data Length: 67
 Output Data:
@@ -638,7 +638,7 @@ Output Data Length: 4321
 --------------------------------------------------------------------------------
 ********************************* Miscellaneous Files; Dictionary only content; Item 7 *********************************
 Remarks: Miscellaneous Files; Dictionary only content
-Info => Transaction Id: wigo53qyhq6x; Content Mappings: [{'Copy ': 'Paste '}, {'"title"': '"sir_name"'}, {'': ''}, {'Fantasy': 'Horror'}, {'svg': 'jpeg'}, {'SVG': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\dic_content'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: ic1mlytifcrq; Content Mappings: [{'Copy ': 'Paste '}, {'"title"': '"sir_name"'}, {'': ''}, {'Fantasy': 'Horror'}, {'svg': 'jpeg'}, {'SVG': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\dic_content'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\dataPlay\data\user_data\Generic\XML\1.xml
 Input Data Length: 62
 Output Data:
@@ -666,7 +666,7 @@ Output Data Length: 613
 --------------------------------------------------------------------------------
 ********************************* Miscellaneous Files; Dictionary only content; Item 8 *********************************
 Remarks: Miscellaneous Files; Dictionary only content
-Info => Transaction Id: r5yqaz4dnoe8; Content Mappings: [{'Copy ': 'Paste '}, {'"title"': '"sir_name"'}, {'': ''}, {'Fantasy': 'Horror'}, {'svg': 'jpeg'}, {'SVG': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\dic_content'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: rqr0pmpw5n6j; Content Mappings: [{'Copy ': 'Paste '}, {'"title"': '"sir_name"'}, {'': ''}, {'Fantasy': 'Horror'}, {'svg': 'jpeg'}, {'SVG': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\dic_content'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\dataPlay\data\user_data\Generic\XML\2.xml
 Input Data Length: 62
 Output Data:
@@ -682,7 +682,7 @@ Output Data Length: 215
 --------------------------------------------------------------------------------
 ********************************* Miscellaneous Files; Dictionary only content; Item 9 *********************************
 Remarks: Miscellaneous Files; Dictionary only content
-Info => Transaction Id: gn0z6vokq3ff; Content Mappings: [{'Copy ': 'Paste '}, {'"title"': '"sir_name"'}, {'': ''}, {'Fantasy': 'Horror'}, {'svg': 'jpeg'}, {'SVG': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\dic_content'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: 8kclvmq6p63c; Content Mappings: [{'Copy ': 'Paste '}, {'"title"': '"sir_name"'}, {'': ''}, {'Fantasy': 'Horror'}, {'svg': 'jpeg'}, {'SVG': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\dic_content'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\dataPlay\data\user_data\Generic\XML\3.xml
 Input Data Length: 62
 Output Data:
@@ -713,7 +713,7 @@ Output Data Length: 636
 --------------------------------------------------------------------------------
 ********************************* Miscellaneous Files; Dictionary only content; Item 10 ********************************
 Remarks: Miscellaneous Files; Dictionary only content
-Info => Transaction Id: tgtk2d3kbgs9; Content Mappings: [{'Copy ': 'Paste '}, {'"title"': '"sir_name"'}, {'': ''}, {'Fantasy': 'Horror'}, {'svg': 'jpeg'}, {'SVG': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\dic_content'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: kpg8pp1fs5yy; Content Mappings: [{'Copy ': 'Paste '}, {'"title"': '"sir_name"'}, {'': ''}, {'Fantasy': 'Horror'}, {'svg': 'jpeg'}, {'SVG': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\dic_content'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\dataPlay\data\user_data\Generic\XML\4.xml
 Input Data Length: 62
 Output Data:
@@ -1104,7 +1104,7 @@ Output Data Length: 10334
 --------------------------------------------------------------------------------
 ********************************* Miscellaneous Files; Dictionary only content; Item 11 ********************************
 Remarks: Miscellaneous Files; Dictionary only content
-Info => Transaction Id: uli1n7m7g9jh; Content Mappings: [{'Copy ': 'Paste '}, {'"title"': '"sir_name"'}, {'': ''}, {'Fantasy': 'Horror'}, {'svg': 'jpeg'}, {'SVG': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\dic_content'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: 3a57ytsy6meq; Content Mappings: [{'Copy ': 'Paste '}, {'"title"': '"sir_name"'}, {'': ''}, {'Fantasy': 'Horror'}, {'svg': 'jpeg'}, {'SVG': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\dic_content'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\dataPlay\data\user_data\Generic\XML\5.xml
 Input Data Length: 62
 Output Data:
@@ -1137,7 +1137,7 @@ Output Data Length: 1118
 --------------------------------------------------------------------------------
 ********************************* Miscellaneous Files; Dictionary only content; Item 12 ********************************
 Remarks: Miscellaneous Files; Dictionary only content
-Info => Transaction Id: j7j3khamw98f; Content Mappings: [{'Copy ': 'Paste '}, {'"title"': '"sir_name"'}, {'': ''}, {'Fantasy': 'Horror'}, {'svg': 'jpeg'}, {'SVG': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\dic_content'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: dbis55h2wzat; Content Mappings: [{'Copy ': 'Paste '}, {'"title"': '"sir_name"'}, {'': ''}, {'Fantasy': 'Horror'}, {'svg': 'jpeg'}, {'SVG': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\dic_content'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\dataPlay\data\user_data\Generic\XML\books.xml
 Input Data Length: 66
 Output Data:
@@ -1265,7 +1265,7 @@ Output Data Length: 4425
 --------------------------------------------------------------------------------
 ********************************* Miscellaneous Files; Dictionary only content; Item 13 ********************************
 Remarks: Miscellaneous Files; Dictionary only content
-Info => Transaction Id: fz8ebxailxek; Content Mappings: [{'Copy ': 'Paste '}, {'"title"': '"sir_name"'}, {'': ''}, {'Fantasy': 'Horror'}, {'svg': 'jpeg'}, {'SVG': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\dic_content'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: kzz18hdqhphs; Content Mappings: [{'Copy ': 'Paste '}, {'"title"': '"sir_name"'}, {'': ''}, {'Fantasy': 'Horror'}, {'svg': 'jpeg'}, {'SVG': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\dic_content'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\dataPlay\data\user_data\Generic\XML\note.xml
 Input Data Length: 65
 Output Data:
@@ -1280,7 +1280,7 @@ Output Data Length: 164
 --------------------------------------------------------------------------------
 ********************************* Miscellaneous Files; Dictionary only content; Item 14 ********************************
 Remarks: Miscellaneous Files; Dictionary only content
-Info => Transaction Id: 5806bt755uo5; Content Mappings: [{'Copy ': 'Paste '}, {'"title"': '"sir_name"'}, {'': ''}, {'Fantasy': 'Horror'}, {'svg': 'jpeg'}, {'SVG': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\dic_content'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: jae5bebazgb9; Content Mappings: [{'Copy ': 'Paste '}, {'"title"': '"sir_name"'}, {'': ''}, {'Fantasy': 'Horror'}, {'svg': 'jpeg'}, {'SVG': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\dic_content'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\dataPlay\data\user_data\Generic\XML\sitemap.xml
 Input Data Length: 68
 Output Data:
@@ -1323,7 +1323,7 @@ Output Data Length: 903
 --------------------------------------------------------------------------------
 ********************************* Miscellaneous Files; Dictionary only content; Item 15 ********************************
 Remarks: Miscellaneous Files; Dictionary only content
-Info => Transaction Id: drsk27gzv733; Content Mappings: [{'Copy ': 'Paste '}, {'"title"': '"sir_name"'}, {'': ''}, {'Fantasy': 'Horror'}, {'svg': 'jpeg'}, {'SVG': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\dic_content'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: ze4auzz9g7u9; Content Mappings: [{'Copy ': 'Paste '}, {'"title"': '"sir_name"'}, {'': ''}, {'Fantasy': 'Horror'}, {'svg': 'jpeg'}, {'SVG': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\dic_content'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\dataPlay\data\user_data\Generic\YML\hex_to_ascii_exp.yml
 Input Data Length: 77
 Output Data:
@@ -1339,7 +1339,7 @@ Output Data Length: 412
 --------------------------------------------------------------------------------
 ++++++++++++++++++++++++++++++++++++ Miscellaneous Files; Dictionary; Content & Name +++++++++++++++++++++++++++++++++++
 Remarks: Miscellaneous Files; Dictionary; Content & Name
-Info => Transaction Id: byr3qvt2insz; Content Mappings: [{'Copy ': 'Paste '}, {'"title"': '"sir_name"'}, {'': ''}, {'Fantasy': 'Horror'}, {'svg': 'jpeg'}, {'SVG': 'PNG'}]; Name Mappings: [{'1': '11'}, {'2': '22'}, {'5': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\dic_content_n_name'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: hh36zmmlxx2q; Content Mappings: [{'Copy ': 'Paste '}, {'"title"': '"sir_name"'}, {'': ''}, {'Fantasy': 'Horror'}, {'svg': 'jpeg'}, {'SVG': 'PNG'}]; Name Mappings: [{'1': '11'}, {'2': '22'}, {'5': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\dic_content_n_name'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: data\user_data\Generic
 Input Data Length: 22
 --------------------------------------------------------------------------------
@@ -1350,13 +1350,13 @@ include_dirs: []
 excludes: ['*_output.*']
 ++++++++++++++++++++++++++++ Miscellaneous Files; Dictionary; Content & Name; (15 Elements) ++++++++++++++++++++++++++++
 Remarks: Miscellaneous Files; Dictionary; Content & Name
-Info => Transaction Id: cx9a1o5w2qap; Content Mappings: [{'Copy ': 'Paste '}, {'"title"': '"sir_name"'}, {'': ''}, {'Fantasy': 'Horror'}, {'svg': 'jpeg'}, {'SVG': 'PNG'}]; Name Mappings: [{'1': '11'}, {'2': '22'}, {'5': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\dic_content_n_name'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: p4xbba9d7jtt; Content Mappings: [{'Copy ': 'Paste '}, {'"title"': '"sir_name"'}, {'': ''}, {'Fantasy': 'Horror'}, {'svg': 'jpeg'}, {'SVG': 'PNG'}]; Name Mappings: [{'1': '11'}, {'2': '22'}, {'5': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\dic_content_n_name'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: ['D:\\Other\\Github_Self\\dataPlay\\data\\user_data\\Generic\\Json\\1.json', 'D:\\Other\\Github_Self\\dataPlay\\data\\user_data\\Generic\\Json\\2.json', 'D:\\Other\\Github_Self\\dataPlay\\data\\user_data\\Generic\\Json\\3.json', 'D:\\Other\\Github_Self\\dataPlay\\data\\user_data\\Generic\\Json\\4.json', 'D:\\Other\\Github_Self\\dataPlay\\data\\user_data\\Generic\\Json\\5.json', 'D:\\Other\\Github_Self\\dataPlay\\data\\user_data\\Generic\\python\\test.py', 'D:\\Other\\Github_Self\\dataPlay\\data\\user_data\\Generic\\XML\\1.xml', 'D:\\Other\\Github_Self\\dataPlay\\data\\user_data\\Generic\\XML\\2.xml', 'D:\\Other\\Github_Self\\dataPlay\\data\\user_data\\Generic\\XML\\3.xml', 'D:\\Other\\Github_Self\\dataPlay\\data\\user_data\\Generic\\XML\\4.xml', 'D:\\Other\\Github_Self\\dataPlay\\data\\user_data\\Generic\\XML\\5.xml', 'D:\\Other\\Github_Self\\dataPlay\\data\\user_data\\Generic\\XML\\books.xml', 'D:\\Other\\Github_Self\\dataPlay\\data\\user_data\\Generic\\XML\\note.xml', 'D:\\Other\\Github_Self\\dataPlay\\data\\user_data\\Generic\\XML\\sitemap.xml', 'D:\\Other\\Github_Self\\dataPlay\\data\\user_data\\Generic\\YML\\hex_to_ascii_exp.yml']
 Input Data Length: 1153
 --------------------------------------------------------------------------------
 ******************************** Miscellaneous Files; Dictionary; Content & Name; Item 1 *******************************
 Remarks: Miscellaneous Files; Dictionary; Content & Name
-Info => Transaction Id: 2hbb4pxv2wyi; Content Mappings: [{'Copy ': 'Paste '}, {'"title"': '"sir_name"'}, {'': ''}, {'Fantasy': 'Horror'}, {'svg': 'jpeg'}, {'SVG': 'PNG'}]; Name Mappings: [{'1': '11'}, {'2': '22'}, {'5': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\dic_content_n_name'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: hb0xugl32hap; Content Mappings: [{'Copy ': 'Paste '}, {'"title"': '"sir_name"'}, {'': ''}, {'Fantasy': 'Horror'}, {'svg': 'jpeg'}, {'SVG': 'PNG'}]; Name Mappings: [{'1': '11'}, {'2': '22'}, {'5': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\dic_content_n_name'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\dataPlay\data\user_data\Generic\Json\1.json
 Input Data Length: 64
 Output Data:
@@ -1386,7 +1386,7 @@ Output Data Length: 588
 --------------------------------------------------------------------------------
 ******************************** Miscellaneous Files; Dictionary; Content & Name; Item 2 *******************************
 Remarks: Miscellaneous Files; Dictionary; Content & Name
-Info => Transaction Id: fk158qqpioo5; Content Mappings: [{'Copy ': 'Paste '}, {'"title"': '"sir_name"'}, {'': ''}, {'Fantasy': 'Horror'}, {'svg': 'jpeg'}, {'SVG': 'PNG'}]; Name Mappings: [{'1': '11'}, {'2': '22'}, {'5': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\dic_content_n_name'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: ci1qkr5p8r1p; Content Mappings: [{'Copy ': 'Paste '}, {'"title"': '"sir_name"'}, {'': ''}, {'Fantasy': 'Horror'}, {'svg': 'jpeg'}, {'SVG': 'PNG'}]; Name Mappings: [{'1': '11'}, {'2': '22'}, {'5': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\dic_content_n_name'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\dataPlay\data\user_data\Generic\Json\2.json
 Input Data Length: 64
 Output Data:
@@ -1405,7 +1405,7 @@ Output Data Length: 241
 --------------------------------------------------------------------------------
 ******************************** Miscellaneous Files; Dictionary; Content & Name; Item 3 *******************************
 Remarks: Miscellaneous Files; Dictionary; Content & Name
-Info => Transaction Id: 45esek08tt4n; Content Mappings: [{'Copy ': 'Paste '}, {'"title"': '"sir_name"'}, {'': ''}, {'Fantasy': 'Horror'}, {'svg': 'jpeg'}, {'SVG': 'PNG'}]; Name Mappings: [{'1': '11'}, {'2': '22'}, {'5': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\dic_content_n_name'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: 2egrxmcu1wno; Content Mappings: [{'Copy ': 'Paste '}, {'"title"': '"sir_name"'}, {'': ''}, {'Fantasy': 'Horror'}, {'svg': 'jpeg'}, {'SVG': 'PNG'}]; Name Mappings: [{'1': '11'}, {'2': '22'}, {'5': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\dic_content_n_name'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\dataPlay\data\user_data\Generic\Json\3.json
 Input Data Length: 64
 Output Data:
@@ -1440,7 +1440,7 @@ Output Data Length: 609
 --------------------------------------------------------------------------------
 ******************************** Miscellaneous Files; Dictionary; Content & Name; Item 4 *******************************
 Remarks: Miscellaneous Files; Dictionary; Content & Name
-Info => Transaction Id: sj809652m1g5; Content Mappings: [{'Copy ': 'Paste '}, {'"title"': '"sir_name"'}, {'': ''}, {'Fantasy': 'Horror'}, {'svg': 'jpeg'}, {'SVG': 'PNG'}]; Name Mappings: [{'1': '11'}, {'2': '22'}, {'5': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\dic_content_n_name'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: dn0sc7w4rfkg; Content Mappings: [{'Copy ': 'Paste '}, {'"title"': '"sir_name"'}, {'': ''}, {'Fantasy': 'Horror'}, {'svg': 'jpeg'}, {'SVG': 'PNG'}]; Name Mappings: [{'1': '11'}, {'2': '22'}, {'5': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\dic_content_n_name'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\dataPlay\data\user_data\Generic\Json\4.json
 Input Data Length: 64
 Output Data:
@@ -1536,7 +1536,7 @@ Output Data Length: 3467
 --------------------------------------------------------------------------------
 ******************************** Miscellaneous Files; Dictionary; Content & Name; Item 5 *******************************
 Remarks: Miscellaneous Files; Dictionary; Content & Name
-Info => Transaction Id: eoc9l0w0hcja; Content Mappings: [{'Copy ': 'Paste '}, {'"title"': '"sir_name"'}, {'': ''}, {'Fantasy': 'Horror'}, {'svg': 'jpeg'}, {'SVG': 'PNG'}]; Name Mappings: [{'1': '11'}, {'2': '22'}, {'5': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\dic_content_n_name'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: iryymvxyjuye; Content Mappings: [{'Copy ': 'Paste '}, {'"title"': '"sir_name"'}, {'': ''}, {'Fantasy': 'Horror'}, {'svg': 'jpeg'}, {'SVG': 'PNG'}]; Name Mappings: [{'1': '11'}, {'2': '22'}, {'5': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\dic_content_n_name'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\dataPlay\data\user_data\Generic\Json\5.json
 Input Data Length: 64
 Output Data:
@@ -1571,7 +1571,7 @@ Output Data Length: 874
 --------------------------------------------------------------------------------
 ******************************** Miscellaneous Files; Dictionary; Content & Name; Item 6 *******************************
 Remarks: Miscellaneous Files; Dictionary; Content & Name
-Info => Transaction Id: qe5nlh1gfo21; Content Mappings: [{'Copy ': 'Paste '}, {'"title"': '"sir_name"'}, {'': ''}, {'Fantasy': 'Horror'}, {'svg': 'jpeg'}, {'SVG': 'PNG'}]; Name Mappings: [{'1': '11'}, {'2': '22'}, {'5': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\dic_content_n_name'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: 8pcpci4tbzju; Content Mappings: [{'Copy ': 'Paste '}, {'"title"': '"sir_name"'}, {'': ''}, {'Fantasy': 'Horror'}, {'svg': 'jpeg'}, {'SVG': 'PNG'}]; Name Mappings: [{'1': '11'}, {'2': '22'}, {'5': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\dic_content_n_name'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\dataPlay\data\user_data\Generic\python\test.py
 Input Data Length: 67
 Output Data:
@@ -1738,7 +1738,7 @@ Output Data Length: 4321
 --------------------------------------------------------------------------------
 ******************************** Miscellaneous Files; Dictionary; Content & Name; Item 7 *******************************
 Remarks: Miscellaneous Files; Dictionary; Content & Name
-Info => Transaction Id: i98iu40llanm; Content Mappings: [{'Copy ': 'Paste '}, {'"title"': '"sir_name"'}, {'': ''}, {'Fantasy': 'Horror'}, {'svg': 'jpeg'}, {'SVG': 'PNG'}]; Name Mappings: [{'1': '11'}, {'2': '22'}, {'5': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\dic_content_n_name'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: ogeuy0dpaf9h; Content Mappings: [{'Copy ': 'Paste '}, {'"title"': '"sir_name"'}, {'': ''}, {'Fantasy': 'Horror'}, {'svg': 'jpeg'}, {'SVG': 'PNG'}]; Name Mappings: [{'1': '11'}, {'2': '22'}, {'5': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\dic_content_n_name'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\dataPlay\data\user_data\Generic\XML\1.xml
 Input Data Length: 62
 Output Data:
@@ -1766,7 +1766,7 @@ Output Data Length: 613
 --------------------------------------------------------------------------------
 ******************************** Miscellaneous Files; Dictionary; Content & Name; Item 8 *******************************
 Remarks: Miscellaneous Files; Dictionary; Content & Name
-Info => Transaction Id: uqvrhuhgs3wj; Content Mappings: [{'Copy ': 'Paste '}, {'"title"': '"sir_name"'}, {'': ''}, {'Fantasy': 'Horror'}, {'svg': 'jpeg'}, {'SVG': 'PNG'}]; Name Mappings: [{'1': '11'}, {'2': '22'}, {'5': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\dic_content_n_name'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: qsqwk820xwiq; Content Mappings: [{'Copy ': 'Paste '}, {'"title"': '"sir_name"'}, {'': ''}, {'Fantasy': 'Horror'}, {'svg': 'jpeg'}, {'SVG': 'PNG'}]; Name Mappings: [{'1': '11'}, {'2': '22'}, {'5': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\dic_content_n_name'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\dataPlay\data\user_data\Generic\XML\2.xml
 Input Data Length: 62
 Output Data:
@@ -1782,7 +1782,7 @@ Output Data Length: 215
 --------------------------------------------------------------------------------
 ******************************** Miscellaneous Files; Dictionary; Content & Name; Item 9 *******************************
 Remarks: Miscellaneous Files; Dictionary; Content & Name
-Info => Transaction Id: 9pmyzkvdboq3; Content Mappings: [{'Copy ': 'Paste '}, {'"title"': '"sir_name"'}, {'': ''}, {'Fantasy': 'Horror'}, {'svg': 'jpeg'}, {'SVG': 'PNG'}]; Name Mappings: [{'1': '11'}, {'2': '22'}, {'5': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\dic_content_n_name'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: nwy2mcfwy906; Content Mappings: [{'Copy ': 'Paste '}, {'"title"': '"sir_name"'}, {'': ''}, {'Fantasy': 'Horror'}, {'svg': 'jpeg'}, {'SVG': 'PNG'}]; Name Mappings: [{'1': '11'}, {'2': '22'}, {'5': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\dic_content_n_name'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\dataPlay\data\user_data\Generic\XML\3.xml
 Input Data Length: 62
 Output Data:
@@ -1813,7 +1813,7 @@ Output Data Length: 636
 --------------------------------------------------------------------------------
 ******************************* Miscellaneous Files; Dictionary; Content & Name; Item 10 *******************************
 Remarks: Miscellaneous Files; Dictionary; Content & Name
-Info => Transaction Id: 2opkrr4s5313; Content Mappings: [{'Copy ': 'Paste '}, {'"title"': '"sir_name"'}, {'': ''}, {'Fantasy': 'Horror'}, {'svg': 'jpeg'}, {'SVG': 'PNG'}]; Name Mappings: [{'1': '11'}, {'2': '22'}, {'5': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\dic_content_n_name'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: ri0mw9j517o9; Content Mappings: [{'Copy ': 'Paste '}, {'"title"': '"sir_name"'}, {'': ''}, {'Fantasy': 'Horror'}, {'svg': 'jpeg'}, {'SVG': 'PNG'}]; Name Mappings: [{'1': '11'}, {'2': '22'}, {'5': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\dic_content_n_name'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\dataPlay\data\user_data\Generic\XML\4.xml
 Input Data Length: 62
 Output Data:
@@ -2204,7 +2204,7 @@ Output Data Length: 10334
 --------------------------------------------------------------------------------
 ******************************* Miscellaneous Files; Dictionary; Content & Name; Item 11 *******************************
 Remarks: Miscellaneous Files; Dictionary; Content & Name
-Info => Transaction Id: hw61a2aojd1f; Content Mappings: [{'Copy ': 'Paste '}, {'"title"': '"sir_name"'}, {'': ''}, {'Fantasy': 'Horror'}, {'svg': 'jpeg'}, {'SVG': 'PNG'}]; Name Mappings: [{'1': '11'}, {'2': '22'}, {'5': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\dic_content_n_name'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: h4le6ek32l3t; Content Mappings: [{'Copy ': 'Paste '}, {'"title"': '"sir_name"'}, {'': ''}, {'Fantasy': 'Horror'}, {'svg': 'jpeg'}, {'SVG': 'PNG'}]; Name Mappings: [{'1': '11'}, {'2': '22'}, {'5': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\dic_content_n_name'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\dataPlay\data\user_data\Generic\XML\5.xml
 Input Data Length: 62
 Output Data:
@@ -2237,7 +2237,7 @@ Output Data Length: 1118
 --------------------------------------------------------------------------------
 ******************************* Miscellaneous Files; Dictionary; Content & Name; Item 12 *******************************
 Remarks: Miscellaneous Files; Dictionary; Content & Name
-Info => Transaction Id: j9z3mfkjvqfa; Content Mappings: [{'Copy ': 'Paste '}, {'"title"': '"sir_name"'}, {'': ''}, {'Fantasy': 'Horror'}, {'svg': 'jpeg'}, {'SVG': 'PNG'}]; Name Mappings: [{'1': '11'}, {'2': '22'}, {'5': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\dic_content_n_name'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: qkpnxm8ru8vi; Content Mappings: [{'Copy ': 'Paste '}, {'"title"': '"sir_name"'}, {'': ''}, {'Fantasy': 'Horror'}, {'svg': 'jpeg'}, {'SVG': 'PNG'}]; Name Mappings: [{'1': '11'}, {'2': '22'}, {'5': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\dic_content_n_name'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\dataPlay\data\user_data\Generic\XML\books.xml
 Input Data Length: 66
 Output Data:
@@ -2365,7 +2365,7 @@ Output Data Length: 4425
 --------------------------------------------------------------------------------
 ******************************* Miscellaneous Files; Dictionary; Content & Name; Item 13 *******************************
 Remarks: Miscellaneous Files; Dictionary; Content & Name
-Info => Transaction Id: 8lrkyoax9ure; Content Mappings: [{'Copy ': 'Paste '}, {'"title"': '"sir_name"'}, {'': ''}, {'Fantasy': 'Horror'}, {'svg': 'jpeg'}, {'SVG': 'PNG'}]; Name Mappings: [{'1': '11'}, {'2': '22'}, {'5': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\dic_content_n_name'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: nzwvjxzfdr3t; Content Mappings: [{'Copy ': 'Paste '}, {'"title"': '"sir_name"'}, {'': ''}, {'Fantasy': 'Horror'}, {'svg': 'jpeg'}, {'SVG': 'PNG'}]; Name Mappings: [{'1': '11'}, {'2': '22'}, {'5': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\dic_content_n_name'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\dataPlay\data\user_data\Generic\XML\note.xml
 Input Data Length: 65
 Output Data:
@@ -2380,7 +2380,7 @@ Output Data Length: 164
 --------------------------------------------------------------------------------
 ******************************* Miscellaneous Files; Dictionary; Content & Name; Item 14 *******************************
 Remarks: Miscellaneous Files; Dictionary; Content & Name
-Info => Transaction Id: hu9jk9lsqwxj; Content Mappings: [{'Copy ': 'Paste '}, {'"title"': '"sir_name"'}, {'': ''}, {'Fantasy': 'Horror'}, {'svg': 'jpeg'}, {'SVG': 'PNG'}]; Name Mappings: [{'1': '11'}, {'2': '22'}, {'5': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\dic_content_n_name'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: hrvt0gjdi0t6; Content Mappings: [{'Copy ': 'Paste '}, {'"title"': '"sir_name"'}, {'': ''}, {'Fantasy': 'Horror'}, {'svg': 'jpeg'}, {'SVG': 'PNG'}]; Name Mappings: [{'1': '11'}, {'2': '22'}, {'5': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\dic_content_n_name'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\dataPlay\data\user_data\Generic\XML\sitemap.xml
 Input Data Length: 68
 Output Data:
@@ -2423,7 +2423,7 @@ Output Data Length: 903
 --------------------------------------------------------------------------------
 ******************************* Miscellaneous Files; Dictionary; Content & Name; Item 15 *******************************
 Remarks: Miscellaneous Files; Dictionary; Content & Name
-Info => Transaction Id: ycfnnk6fy8nf; Content Mappings: [{'Copy ': 'Paste '}, {'"title"': '"sir_name"'}, {'': ''}, {'Fantasy': 'Horror'}, {'svg': 'jpeg'}, {'SVG': 'PNG'}]; Name Mappings: [{'1': '11'}, {'2': '22'}, {'5': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\dic_content_n_name'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: v5l5coxs5xxg; Content Mappings: [{'Copy ': 'Paste '}, {'"title"': '"sir_name"'}, {'': ''}, {'Fantasy': 'Horror'}, {'svg': 'jpeg'}, {'SVG': 'PNG'}]; Name Mappings: [{'1': '11'}, {'2': '22'}, {'5': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\dic_content_n_name'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\dataPlay\data\user_data\Generic\YML\hex_to_ascii_exp.yml
 Input Data Length: 77
 Output Data:
@@ -2439,7 +2439,7 @@ Output Data Length: 412
 --------------------------------------------------------------------------------
 +++++++++++++++++++++++++++++++++++++++ Miscellaneous Files; Detailed Dictionary +++++++++++++++++++++++++++++++++++++++
 Remarks: Miscellaneous Files; Detailed Dictionary
-Info => Transaction Id: f0i9pzjze0n2; Content Mappings: [{'include_search_pattern': 'Copy ', 'replace_with': 'Paste '}, {'include_search_pattern': '"title"', 'replace_with': '"sir_name"'}, {}, {'include_search_pattern': 'Fantasy', 'replace_with': 'Horror'}, {'include_search_pattern': 'svg', 'replace_with': 'jpeg'}, {'include_search_pattern': 'SVG', 'replace_with': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\detailed_dic'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: v0y1067izyaj; Content Mappings: [{'include_search_pattern': 'Copy ', 'replace_with': 'Paste '}, {'include_search_pattern': '"title"', 'replace_with': '"sir_name"'}, {}, {'include_search_pattern': 'Fantasy', 'replace_with': 'Horror'}, {'include_search_pattern': 'svg', 'replace_with': 'jpeg'}, {'include_search_pattern': 'SVG', 'replace_with': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\detailed_dic'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: data\user_data\Generic
 Input Data Length: 22
 --------------------------------------------------------------------------------
@@ -2450,13 +2450,13 @@ include_dirs: []
 excludes: ['*_output.*']
 ++++++++++++++++++++++++++++++++ Miscellaneous Files; Detailed Dictionary; (15 Elements) +++++++++++++++++++++++++++++++
 Remarks: Miscellaneous Files; Detailed Dictionary
-Info => Transaction Id: zy766p2k2dnq; Content Mappings: [{'include_search_pattern': 'Copy ', 'replace_with': 'Paste '}, {'include_search_pattern': '"title"', 'replace_with': '"sir_name"'}, {}, {'include_search_pattern': 'Fantasy', 'replace_with': 'Horror'}, {'include_search_pattern': 'svg', 'replace_with': 'jpeg'}, {'include_search_pattern': 'SVG', 'replace_with': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\detailed_dic'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: 9brv9izas3ij; Content Mappings: [{'include_search_pattern': 'Copy ', 'replace_with': 'Paste '}, {'include_search_pattern': '"title"', 'replace_with': '"sir_name"'}, {}, {'include_search_pattern': 'Fantasy', 'replace_with': 'Horror'}, {'include_search_pattern': 'svg', 'replace_with': 'jpeg'}, {'include_search_pattern': 'SVG', 'replace_with': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\detailed_dic'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: ['D:\\Other\\Github_Self\\dataPlay\\data\\user_data\\Generic\\Json\\1.json', 'D:\\Other\\Github_Self\\dataPlay\\data\\user_data\\Generic\\Json\\2.json', 'D:\\Other\\Github_Self\\dataPlay\\data\\user_data\\Generic\\Json\\3.json', 'D:\\Other\\Github_Self\\dataPlay\\data\\user_data\\Generic\\Json\\4.json', 'D:\\Other\\Github_Self\\dataPlay\\data\\user_data\\Generic\\Json\\5.json', 'D:\\Other\\Github_Self\\dataPlay\\data\\user_data\\Generic\\python\\test.py', 'D:\\Other\\Github_Self\\dataPlay\\data\\user_data\\Generic\\XML\\1.xml', 'D:\\Other\\Github_Self\\dataPlay\\data\\user_data\\Generic\\XML\\2.xml', 'D:\\Other\\Github_Self\\dataPlay\\data\\user_data\\Generic\\XML\\3.xml', 'D:\\Other\\Github_Self\\dataPlay\\data\\user_data\\Generic\\XML\\4.xml', 'D:\\Other\\Github_Self\\dataPlay\\data\\user_data\\Generic\\XML\\5.xml', 'D:\\Other\\Github_Self\\dataPlay\\data\\user_data\\Generic\\XML\\books.xml', 'D:\\Other\\Github_Self\\dataPlay\\data\\user_data\\Generic\\XML\\note.xml', 'D:\\Other\\Github_Self\\dataPlay\\data\\user_data\\Generic\\XML\\sitemap.xml', 'D:\\Other\\Github_Self\\dataPlay\\data\\user_data\\Generic\\YML\\hex_to_ascii_exp.yml']
 Input Data Length: 1153
 --------------------------------------------------------------------------------
 *********************************** Miscellaneous Files; Detailed Dictionary; Item 1 ***********************************
 Remarks: Miscellaneous Files; Detailed Dictionary
-Info => Transaction Id: xhwry7offk4s; Content Mappings: [{'include_search_pattern': 'Copy ', 'replace_with': 'Paste '}, {'include_search_pattern': '"title"', 'replace_with': '"sir_name"'}, {}, {'include_search_pattern': 'Fantasy', 'replace_with': 'Horror'}, {'include_search_pattern': 'svg', 'replace_with': 'jpeg'}, {'include_search_pattern': 'SVG', 'replace_with': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\detailed_dic'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: u6v0x66acsv7; Content Mappings: [{'include_search_pattern': 'Copy ', 'replace_with': 'Paste '}, {'include_search_pattern': '"title"', 'replace_with': '"sir_name"'}, {}, {'include_search_pattern': 'Fantasy', 'replace_with': 'Horror'}, {'include_search_pattern': 'svg', 'replace_with': 'jpeg'}, {'include_search_pattern': 'SVG', 'replace_with': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\detailed_dic'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\dataPlay\data\user_data\Generic\Json\1.json
 Input Data Length: 64
 Output Data:
@@ -2486,7 +2486,7 @@ Output Data Length: 588
 --------------------------------------------------------------------------------
 *********************************** Miscellaneous Files; Detailed Dictionary; Item 2 ***********************************
 Remarks: Miscellaneous Files; Detailed Dictionary
-Info => Transaction Id: h56nss1fxl9y; Content Mappings: [{'include_search_pattern': 'Copy ', 'replace_with': 'Paste '}, {'include_search_pattern': '"title"', 'replace_with': '"sir_name"'}, {}, {'include_search_pattern': 'Fantasy', 'replace_with': 'Horror'}, {'include_search_pattern': 'svg', 'replace_with': 'jpeg'}, {'include_search_pattern': 'SVG', 'replace_with': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\detailed_dic'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: vy5mw9285gvf; Content Mappings: [{'include_search_pattern': 'Copy ', 'replace_with': 'Paste '}, {'include_search_pattern': '"title"', 'replace_with': '"sir_name"'}, {}, {'include_search_pattern': 'Fantasy', 'replace_with': 'Horror'}, {'include_search_pattern': 'svg', 'replace_with': 'jpeg'}, {'include_search_pattern': 'SVG', 'replace_with': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\detailed_dic'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\dataPlay\data\user_data\Generic\Json\2.json
 Input Data Length: 64
 Output Data:
@@ -2505,7 +2505,7 @@ Output Data Length: 241
 --------------------------------------------------------------------------------
 *********************************** Miscellaneous Files; Detailed Dictionary; Item 3 ***********************************
 Remarks: Miscellaneous Files; Detailed Dictionary
-Info => Transaction Id: bc3m4oas1bgb; Content Mappings: [{'include_search_pattern': 'Copy ', 'replace_with': 'Paste '}, {'include_search_pattern': '"title"', 'replace_with': '"sir_name"'}, {}, {'include_search_pattern': 'Fantasy', 'replace_with': 'Horror'}, {'include_search_pattern': 'svg', 'replace_with': 'jpeg'}, {'include_search_pattern': 'SVG', 'replace_with': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\detailed_dic'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: oebvnu9i9bo1; Content Mappings: [{'include_search_pattern': 'Copy ', 'replace_with': 'Paste '}, {'include_search_pattern': '"title"', 'replace_with': '"sir_name"'}, {}, {'include_search_pattern': 'Fantasy', 'replace_with': 'Horror'}, {'include_search_pattern': 'svg', 'replace_with': 'jpeg'}, {'include_search_pattern': 'SVG', 'replace_with': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\detailed_dic'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\dataPlay\data\user_data\Generic\Json\3.json
 Input Data Length: 64
 Output Data:
@@ -2540,7 +2540,7 @@ Output Data Length: 609
 --------------------------------------------------------------------------------
 *********************************** Miscellaneous Files; Detailed Dictionary; Item 4 ***********************************
 Remarks: Miscellaneous Files; Detailed Dictionary
-Info => Transaction Id: fip4kzwk9sqo; Content Mappings: [{'include_search_pattern': 'Copy ', 'replace_with': 'Paste '}, {'include_search_pattern': '"title"', 'replace_with': '"sir_name"'}, {}, {'include_search_pattern': 'Fantasy', 'replace_with': 'Horror'}, {'include_search_pattern': 'svg', 'replace_with': 'jpeg'}, {'include_search_pattern': 'SVG', 'replace_with': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\detailed_dic'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: lbrdikhzvgx9; Content Mappings: [{'include_search_pattern': 'Copy ', 'replace_with': 'Paste '}, {'include_search_pattern': '"title"', 'replace_with': '"sir_name"'}, {}, {'include_search_pattern': 'Fantasy', 'replace_with': 'Horror'}, {'include_search_pattern': 'svg', 'replace_with': 'jpeg'}, {'include_search_pattern': 'SVG', 'replace_with': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\detailed_dic'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\dataPlay\data\user_data\Generic\Json\4.json
 Input Data Length: 64
 Output Data:
@@ -2636,7 +2636,7 @@ Output Data Length: 3467
 --------------------------------------------------------------------------------
 *********************************** Miscellaneous Files; Detailed Dictionary; Item 5 ***********************************
 Remarks: Miscellaneous Files; Detailed Dictionary
-Info => Transaction Id: 28xmyc63tn5b; Content Mappings: [{'include_search_pattern': 'Copy ', 'replace_with': 'Paste '}, {'include_search_pattern': '"title"', 'replace_with': '"sir_name"'}, {}, {'include_search_pattern': 'Fantasy', 'replace_with': 'Horror'}, {'include_search_pattern': 'svg', 'replace_with': 'jpeg'}, {'include_search_pattern': 'SVG', 'replace_with': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\detailed_dic'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: cxkt8pm0jaf7; Content Mappings: [{'include_search_pattern': 'Copy ', 'replace_with': 'Paste '}, {'include_search_pattern': '"title"', 'replace_with': '"sir_name"'}, {}, {'include_search_pattern': 'Fantasy', 'replace_with': 'Horror'}, {'include_search_pattern': 'svg', 'replace_with': 'jpeg'}, {'include_search_pattern': 'SVG', 'replace_with': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\detailed_dic'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\dataPlay\data\user_data\Generic\Json\5.json
 Input Data Length: 64
 Output Data:
@@ -2671,7 +2671,7 @@ Output Data Length: 874
 --------------------------------------------------------------------------------
 *********************************** Miscellaneous Files; Detailed Dictionary; Item 6 ***********************************
 Remarks: Miscellaneous Files; Detailed Dictionary
-Info => Transaction Id: qvvzmn88n72c; Content Mappings: [{'include_search_pattern': 'Copy ', 'replace_with': 'Paste '}, {'include_search_pattern': '"title"', 'replace_with': '"sir_name"'}, {}, {'include_search_pattern': 'Fantasy', 'replace_with': 'Horror'}, {'include_search_pattern': 'svg', 'replace_with': 'jpeg'}, {'include_search_pattern': 'SVG', 'replace_with': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\detailed_dic'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: uoxs2i6ue7ra; Content Mappings: [{'include_search_pattern': 'Copy ', 'replace_with': 'Paste '}, {'include_search_pattern': '"title"', 'replace_with': '"sir_name"'}, {}, {'include_search_pattern': 'Fantasy', 'replace_with': 'Horror'}, {'include_search_pattern': 'svg', 'replace_with': 'jpeg'}, {'include_search_pattern': 'SVG', 'replace_with': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\detailed_dic'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\dataPlay\data\user_data\Generic\python\test.py
 Input Data Length: 67
 Output Data:
@@ -2838,7 +2838,7 @@ Output Data Length: 4321
 --------------------------------------------------------------------------------
 *********************************** Miscellaneous Files; Detailed Dictionary; Item 7 ***********************************
 Remarks: Miscellaneous Files; Detailed Dictionary
-Info => Transaction Id: k8wmrqwg8p66; Content Mappings: [{'include_search_pattern': 'Copy ', 'replace_with': 'Paste '}, {'include_search_pattern': '"title"', 'replace_with': '"sir_name"'}, {}, {'include_search_pattern': 'Fantasy', 'replace_with': 'Horror'}, {'include_search_pattern': 'svg', 'replace_with': 'jpeg'}, {'include_search_pattern': 'SVG', 'replace_with': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\detailed_dic'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: q545v1m6bcxe; Content Mappings: [{'include_search_pattern': 'Copy ', 'replace_with': 'Paste '}, {'include_search_pattern': '"title"', 'replace_with': '"sir_name"'}, {}, {'include_search_pattern': 'Fantasy', 'replace_with': 'Horror'}, {'include_search_pattern': 'svg', 'replace_with': 'jpeg'}, {'include_search_pattern': 'SVG', 'replace_with': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\detailed_dic'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\dataPlay\data\user_data\Generic\XML\1.xml
 Input Data Length: 62
 Output Data:
@@ -2866,7 +2866,7 @@ Output Data Length: 613
 --------------------------------------------------------------------------------
 *********************************** Miscellaneous Files; Detailed Dictionary; Item 8 ***********************************
 Remarks: Miscellaneous Files; Detailed Dictionary
-Info => Transaction Id: cd13it2x6q2g; Content Mappings: [{'include_search_pattern': 'Copy ', 'replace_with': 'Paste '}, {'include_search_pattern': '"title"', 'replace_with': '"sir_name"'}, {}, {'include_search_pattern': 'Fantasy', 'replace_with': 'Horror'}, {'include_search_pattern': 'svg', 'replace_with': 'jpeg'}, {'include_search_pattern': 'SVG', 'replace_with': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\detailed_dic'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: zbybxm2uskue; Content Mappings: [{'include_search_pattern': 'Copy ', 'replace_with': 'Paste '}, {'include_search_pattern': '"title"', 'replace_with': '"sir_name"'}, {}, {'include_search_pattern': 'Fantasy', 'replace_with': 'Horror'}, {'include_search_pattern': 'svg', 'replace_with': 'jpeg'}, {'include_search_pattern': 'SVG', 'replace_with': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\detailed_dic'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\dataPlay\data\user_data\Generic\XML\2.xml
 Input Data Length: 62
 Output Data:
@@ -2882,7 +2882,7 @@ Output Data Length: 215
 --------------------------------------------------------------------------------
 *********************************** Miscellaneous Files; Detailed Dictionary; Item 9 ***********************************
 Remarks: Miscellaneous Files; Detailed Dictionary
-Info => Transaction Id: xztsob0ulhit; Content Mappings: [{'include_search_pattern': 'Copy ', 'replace_with': 'Paste '}, {'include_search_pattern': '"title"', 'replace_with': '"sir_name"'}, {}, {'include_search_pattern': 'Fantasy', 'replace_with': 'Horror'}, {'include_search_pattern': 'svg', 'replace_with': 'jpeg'}, {'include_search_pattern': 'SVG', 'replace_with': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\detailed_dic'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: vfsx5npfmq77; Content Mappings: [{'include_search_pattern': 'Copy ', 'replace_with': 'Paste '}, {'include_search_pattern': '"title"', 'replace_with': '"sir_name"'}, {}, {'include_search_pattern': 'Fantasy', 'replace_with': 'Horror'}, {'include_search_pattern': 'svg', 'replace_with': 'jpeg'}, {'include_search_pattern': 'SVG', 'replace_with': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\detailed_dic'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\dataPlay\data\user_data\Generic\XML\3.xml
 Input Data Length: 62
 Output Data:
@@ -2913,7 +2913,7 @@ Output Data Length: 636
 --------------------------------------------------------------------------------
 *********************************** Miscellaneous Files; Detailed Dictionary; Item 10 **********************************
 Remarks: Miscellaneous Files; Detailed Dictionary
-Info => Transaction Id: mci8mxru5h4d; Content Mappings: [{'include_search_pattern': 'Copy ', 'replace_with': 'Paste '}, {'include_search_pattern': '"title"', 'replace_with': '"sir_name"'}, {}, {'include_search_pattern': 'Fantasy', 'replace_with': 'Horror'}, {'include_search_pattern': 'svg', 'replace_with': 'jpeg'}, {'include_search_pattern': 'SVG', 'replace_with': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\detailed_dic'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: xqj1w38n3s32; Content Mappings: [{'include_search_pattern': 'Copy ', 'replace_with': 'Paste '}, {'include_search_pattern': '"title"', 'replace_with': '"sir_name"'}, {}, {'include_search_pattern': 'Fantasy', 'replace_with': 'Horror'}, {'include_search_pattern': 'svg', 'replace_with': 'jpeg'}, {'include_search_pattern': 'SVG', 'replace_with': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\detailed_dic'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\dataPlay\data\user_data\Generic\XML\4.xml
 Input Data Length: 62
 Output Data:
@@ -3304,7 +3304,7 @@ Output Data Length: 10334
 --------------------------------------------------------------------------------
 *********************************** Miscellaneous Files; Detailed Dictionary; Item 11 **********************************
 Remarks: Miscellaneous Files; Detailed Dictionary
-Info => Transaction Id: v6la3vwd30bj; Content Mappings: [{'include_search_pattern': 'Copy ', 'replace_with': 'Paste '}, {'include_search_pattern': '"title"', 'replace_with': '"sir_name"'}, {}, {'include_search_pattern': 'Fantasy', 'replace_with': 'Horror'}, {'include_search_pattern': 'svg', 'replace_with': 'jpeg'}, {'include_search_pattern': 'SVG', 'replace_with': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\detailed_dic'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: 52abeysq05qa; Content Mappings: [{'include_search_pattern': 'Copy ', 'replace_with': 'Paste '}, {'include_search_pattern': '"title"', 'replace_with': '"sir_name"'}, {}, {'include_search_pattern': 'Fantasy', 'replace_with': 'Horror'}, {'include_search_pattern': 'svg', 'replace_with': 'jpeg'}, {'include_search_pattern': 'SVG', 'replace_with': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\detailed_dic'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\dataPlay\data\user_data\Generic\XML\5.xml
 Input Data Length: 62
 Output Data:
@@ -3337,7 +3337,7 @@ Output Data Length: 1118
 --------------------------------------------------------------------------------
 *********************************** Miscellaneous Files; Detailed Dictionary; Item 12 **********************************
 Remarks: Miscellaneous Files; Detailed Dictionary
-Info => Transaction Id: 1qo94gauh8ky; Content Mappings: [{'include_search_pattern': 'Copy ', 'replace_with': 'Paste '}, {'include_search_pattern': '"title"', 'replace_with': '"sir_name"'}, {}, {'include_search_pattern': 'Fantasy', 'replace_with': 'Horror'}, {'include_search_pattern': 'svg', 'replace_with': 'jpeg'}, {'include_search_pattern': 'SVG', 'replace_with': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\detailed_dic'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: 83bj0bzcs33j; Content Mappings: [{'include_search_pattern': 'Copy ', 'replace_with': 'Paste '}, {'include_search_pattern': '"title"', 'replace_with': '"sir_name"'}, {}, {'include_search_pattern': 'Fantasy', 'replace_with': 'Horror'}, {'include_search_pattern': 'svg', 'replace_with': 'jpeg'}, {'include_search_pattern': 'SVG', 'replace_with': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\detailed_dic'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\dataPlay\data\user_data\Generic\XML\books.xml
 Input Data Length: 66
 Output Data:
@@ -3465,7 +3465,7 @@ Output Data Length: 4425
 --------------------------------------------------------------------------------
 *********************************** Miscellaneous Files; Detailed Dictionary; Item 13 **********************************
 Remarks: Miscellaneous Files; Detailed Dictionary
-Info => Transaction Id: 9gxcwj0ylgbg; Content Mappings: [{'include_search_pattern': 'Copy ', 'replace_with': 'Paste '}, {'include_search_pattern': '"title"', 'replace_with': '"sir_name"'}, {}, {'include_search_pattern': 'Fantasy', 'replace_with': 'Horror'}, {'include_search_pattern': 'svg', 'replace_with': 'jpeg'}, {'include_search_pattern': 'SVG', 'replace_with': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\detailed_dic'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: y7gwi81h01t2; Content Mappings: [{'include_search_pattern': 'Copy ', 'replace_with': 'Paste '}, {'include_search_pattern': '"title"', 'replace_with': '"sir_name"'}, {}, {'include_search_pattern': 'Fantasy', 'replace_with': 'Horror'}, {'include_search_pattern': 'svg', 'replace_with': 'jpeg'}, {'include_search_pattern': 'SVG', 'replace_with': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\detailed_dic'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\dataPlay\data\user_data\Generic\XML\note.xml
 Input Data Length: 65
 Output Data:
@@ -3480,7 +3480,7 @@ Output Data Length: 164
 --------------------------------------------------------------------------------
 *********************************** Miscellaneous Files; Detailed Dictionary; Item 14 **********************************
 Remarks: Miscellaneous Files; Detailed Dictionary
-Info => Transaction Id: via6yd2js5od; Content Mappings: [{'include_search_pattern': 'Copy ', 'replace_with': 'Paste '}, {'include_search_pattern': '"title"', 'replace_with': '"sir_name"'}, {}, {'include_search_pattern': 'Fantasy', 'replace_with': 'Horror'}, {'include_search_pattern': 'svg', 'replace_with': 'jpeg'}, {'include_search_pattern': 'SVG', 'replace_with': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\detailed_dic'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: 34djudyoyabn; Content Mappings: [{'include_search_pattern': 'Copy ', 'replace_with': 'Paste '}, {'include_search_pattern': '"title"', 'replace_with': '"sir_name"'}, {}, {'include_search_pattern': 'Fantasy', 'replace_with': 'Horror'}, {'include_search_pattern': 'svg', 'replace_with': 'jpeg'}, {'include_search_pattern': 'SVG', 'replace_with': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\detailed_dic'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\dataPlay\data\user_data\Generic\XML\sitemap.xml
 Input Data Length: 68
 Output Data:
@@ -3523,7 +3523,7 @@ Output Data Length: 903
 --------------------------------------------------------------------------------
 *********************************** Miscellaneous Files; Detailed Dictionary; Item 15 **********************************
 Remarks: Miscellaneous Files; Detailed Dictionary
-Info => Transaction Id: zcjrfpysn01z; Content Mappings: [{'include_search_pattern': 'Copy ', 'replace_with': 'Paste '}, {'include_search_pattern': '"title"', 'replace_with': '"sir_name"'}, {}, {'include_search_pattern': 'Fantasy', 'replace_with': 'Horror'}, {'include_search_pattern': 'svg', 'replace_with': 'jpeg'}, {'include_search_pattern': 'SVG', 'replace_with': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\detailed_dic'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: dbip4rrecvnq; Content Mappings: [{'include_search_pattern': 'Copy ', 'replace_with': 'Paste '}, {'include_search_pattern': '"title"', 'replace_with': '"sir_name"'}, {}, {'include_search_pattern': 'Fantasy', 'replace_with': 'Horror'}, {'include_search_pattern': 'svg', 'replace_with': 'jpeg'}, {'include_search_pattern': 'SVG', 'replace_with': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\detailed_dic'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\dataPlay\data\user_data\Generic\YML\hex_to_ascii_exp.yml
 Input Data Length: 77
 Output Data:
@@ -3539,7 +3539,7 @@ Output Data Length: 412
 --------------------------------------------------------------------------------
 +++++++++++++++++++++++++++++++++++ Miscellaneous Files; SearchAndReplaceData Object +++++++++++++++++++++++++++++++++++
 Remarks: Miscellaneous Files; SearchAndReplaceData Object
-Info => Transaction Id: xz6z2kmhlkw8; Content Mappings: [<data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210C7EC40>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210C7EC70>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210C7ECD0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210C7D1C0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210C7DBB0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210C7DB80>]; Name Mappings: [<data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210C7DD90>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210C7DDC0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210C7DE20>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210C7DA30>]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: ltbjufpvl08k; Content Mappings: [<data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342BFC40>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342BFC70>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342BFCD0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342BE190>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342BEBB0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342BEB80>]; Name Mappings: [<data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342BED90>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342BEDC0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342BEE20>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342BEA30>]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: data\user_data\Generic
 Input Data Length: 22
 --------------------------------------------------------------------------------
@@ -3550,13 +3550,13 @@ include_dirs: []
 excludes: ['*_output.*']
 ++++++++++++++++++++++++++++ Miscellaneous Files; SearchAndReplaceData Object; (15 Elements) +++++++++++++++++++++++++++
 Remarks: Miscellaneous Files; SearchAndReplaceData Object
-Info => Transaction Id: 3ivbns2tkbph; Content Mappings: [<data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210C7EC40>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210C7EC70>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210C7ECD0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210C7D1C0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210C7DBB0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210C7DB80>]; Name Mappings: [<data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210C7DD90>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210C7DDC0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210C7DE20>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210C7DA30>]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: gq9cyus9e64d; Content Mappings: [<data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342BFC40>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342BFC70>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342BFCD0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342BE190>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342BEBB0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342BEB80>]; Name Mappings: [<data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342BED90>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342BEDC0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342BEE20>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342BEA30>]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: ['D:\\Other\\Github_Self\\dataPlay\\data\\user_data\\Generic\\Json\\1.json', 'D:\\Other\\Github_Self\\dataPlay\\data\\user_data\\Generic\\Json\\2.json', 'D:\\Other\\Github_Self\\dataPlay\\data\\user_data\\Generic\\Json\\3.json', 'D:\\Other\\Github_Self\\dataPlay\\data\\user_data\\Generic\\Json\\4.json', 'D:\\Other\\Github_Self\\dataPlay\\data\\user_data\\Generic\\Json\\5.json', 'D:\\Other\\Github_Self\\dataPlay\\data\\user_data\\Generic\\python\\test.py', 'D:\\Other\\Github_Self\\dataPlay\\data\\user_data\\Generic\\XML\\1.xml', 'D:\\Other\\Github_Self\\dataPlay\\data\\user_data\\Generic\\XML\\2.xml', 'D:\\Other\\Github_Self\\dataPlay\\data\\user_data\\Generic\\XML\\3.xml', 'D:\\Other\\Github_Self\\dataPlay\\data\\user_data\\Generic\\XML\\4.xml', 'D:\\Other\\Github_Self\\dataPlay\\data\\user_data\\Generic\\XML\\5.xml', 'D:\\Other\\Github_Self\\dataPlay\\data\\user_data\\Generic\\XML\\books.xml', 'D:\\Other\\Github_Self\\dataPlay\\data\\user_data\\Generic\\XML\\note.xml', 'D:\\Other\\Github_Self\\dataPlay\\data\\user_data\\Generic\\XML\\sitemap.xml', 'D:\\Other\\Github_Self\\dataPlay\\data\\user_data\\Generic\\YML\\hex_to_ascii_exp.yml']
 Input Data Length: 1153
 --------------------------------------------------------------------------------
 ******************************* Miscellaneous Files; SearchAndReplaceData Object; Item 1 *******************************
 Remarks: Miscellaneous Files; SearchAndReplaceData Object
-Info => Transaction Id: ixhcftzarnzp; Content Mappings: [<data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210C78E80>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210C78E20>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210C78CA0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210C78FA0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210C78F70>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210C78C70>]; Name Mappings: [<data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210C78BB0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210C78B50>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210C78A60>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210C78A00>]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: zi87xw13uu99; Content Mappings: [<data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342B8E80>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342B8E20>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342B8DC0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342B8FA0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342B8F70>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342B8C70>]; Name Mappings: [<data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342B8BB0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342B8B50>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342B8A60>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342B8A00>]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\dataPlay\data\user_data\Generic\Json\1.json
 Input Data Length: 64
 Output Data:
@@ -3586,7 +3586,7 @@ Output Data Length: 588
 --------------------------------------------------------------------------------
 ******************************* Miscellaneous Files; SearchAndReplaceData Object; Item 2 *******************************
 Remarks: Miscellaneous Files; SearchAndReplaceData Object
-Info => Transaction Id: opmj4tplbcf2; Content Mappings: [<data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210C78820>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB1070>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB10D0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB1130>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB1190>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB11F0>]; Name Mappings: [<data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB1250>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB12B0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB1310>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB1370>]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: ukk7csxmz72e; Content Mappings: [<data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342B8760>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F1040>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F10A0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F1100>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F1160>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F11C0>]; Name Mappings: [<data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F1220>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F1280>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F12E0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F1340>]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\dataPlay\data\user_data\Generic\Json\2.json
 Input Data Length: 64
 Output Data:
@@ -3605,7 +3605,7 @@ Output Data Length: 241
 --------------------------------------------------------------------------------
 ******************************* Miscellaneous Files; SearchAndReplaceData Object; Item 3 *******************************
 Remarks: Miscellaneous Files; SearchAndReplaceData Object
-Info => Transaction Id: eu4gtmzm89fr; Content Mappings: [<data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210C78E20>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210C78FA0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210C78C70>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210C78BE0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB13A0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB1400>]; Name Mappings: [<data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB1460>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB14C0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB1520>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB1580>]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: yok1rbxdja36; Content Mappings: [<data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342B8E20>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342B8FA0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342B8C70>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342B8BE0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F1370>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F13D0>]; Name Mappings: [<data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F1430>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F1490>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F14F0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F1550>]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\dataPlay\data\user_data\Generic\Json\3.json
 Input Data Length: 64
 Output Data:
@@ -3640,7 +3640,7 @@ Output Data Length: 609
 --------------------------------------------------------------------------------
 ******************************* Miscellaneous Files; SearchAndReplaceData Object; Item 4 *******************************
 Remarks: Miscellaneous Files; SearchAndReplaceData Object
-Info => Transaction Id: hm9ofjz0o85o; Content Mappings: [<data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB12B0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB1370>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB10D0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB1190>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB15B0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB1610>]; Name Mappings: [<data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB1670>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB16D0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB1730>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB1790>]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: mnavh5celeux; Content Mappings: [<data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F1280>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F1340>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F10A0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F1160>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F1580>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F15E0>]; Name Mappings: [<data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F1640>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F16A0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F1700>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F1760>]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\dataPlay\data\user_data\Generic\Json\4.json
 Input Data Length: 64
 Output Data:
@@ -3736,7 +3736,7 @@ Output Data Length: 3467
 --------------------------------------------------------------------------------
 ******************************* Miscellaneous Files; SearchAndReplaceData Object; Item 5 *******************************
 Remarks: Miscellaneous Files; SearchAndReplaceData Object
-Info => Transaction Id: 4j2lgyi0k0yp; Content Mappings: [<data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210C78820>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB1460>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB1520>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB13A0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB17C0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB1820>]; Name Mappings: [<data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB1880>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB18E0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB1940>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB19A0>]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: n0k3stihyf4o; Content Mappings: [<data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342B8760>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F1430>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F14F0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F1370>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F1790>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F17F0>]; Name Mappings: [<data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F1850>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F18B0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F1910>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F1970>]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\dataPlay\data\user_data\Generic\Json\5.json
 Input Data Length: 64
 Output Data:
@@ -3771,7 +3771,7 @@ Output Data Length: 874
 --------------------------------------------------------------------------------
 ******************************* Miscellaneous Files; SearchAndReplaceData Object; Item 6 *******************************
 Remarks: Miscellaneous Files; SearchAndReplaceData Object
-Info => Transaction Id: 9pkx4ik0i066; Content Mappings: [<data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB1730>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB12B0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB10D0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB15B0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB19D0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB1A30>]; Name Mappings: [<data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB1A90>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB1AF0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB1B50>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB1BB0>]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: f92b8shmwr4q; Content Mappings: [<data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F1700>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F1280>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F10A0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F1580>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F19A0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F1A00>]; Name Mappings: [<data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F1A60>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F1AC0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F1B20>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F1B80>]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\dataPlay\data\user_data\Generic\python\test.py
 Input Data Length: 67
 Output Data:
@@ -3938,7 +3938,7 @@ Output Data Length: 4321
 --------------------------------------------------------------------------------
 ******************************* Miscellaneous Files; SearchAndReplaceData Object; Item 7 *******************************
 Remarks: Miscellaneous Files; SearchAndReplaceData Object
-Info => Transaction Id: n5zi90djq144; Content Mappings: [<data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB1940>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB1460>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB13A0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB1820>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB1BE0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB1C40>]; Name Mappings: [<data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB1CA0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB1D00>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB1D60>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB1DC0>]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: 8gcg6c6wcjm5; Content Mappings: [<data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F1910>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F1430>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F1370>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F17F0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F1BB0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F1C10>]; Name Mappings: [<data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F1C70>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F1CD0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F1D30>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F1D90>]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\dataPlay\data\user_data\Generic\XML\1.xml
 Input Data Length: 62
 Output Data:
@@ -3966,7 +3966,7 @@ Output Data Length: 613
 --------------------------------------------------------------------------------
 ******************************* Miscellaneous Files; SearchAndReplaceData Object; Item 8 *******************************
 Remarks: Miscellaneous Files; SearchAndReplaceData Object
-Info => Transaction Id: 354u4dau0ru7; Content Mappings: [<data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB1BB0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB12B0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB15B0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB1A30>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB1DF0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB1E50>]; Name Mappings: [<data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB1EB0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB1F10>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB1F70>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB1FD0>]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: c27dxj2q75f1; Content Mappings: [<data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F1B80>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F1280>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F1580>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F1A00>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F1DC0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F1E20>]; Name Mappings: [<data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F1E80>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F1EE0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F1F40>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F1FA0>]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\dataPlay\data\user_data\Generic\XML\2.xml
 Input Data Length: 62
 Output Data:
@@ -3982,7 +3982,7 @@ Output Data Length: 215
 --------------------------------------------------------------------------------
 ******************************* Miscellaneous Files; SearchAndReplaceData Object; Item 9 *******************************
 Remarks: Miscellaneous Files; SearchAndReplaceData Object
-Info => Transaction Id: 9fkzol1qol2e; Content Mappings: [<data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB1940>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB13A0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB1BE0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB1AF0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB3040>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB30A0>]; Name Mappings: [<data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB3100>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB3160>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB31C0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB3220>]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: 4zhv5pxp4f1f; Content Mappings: [<data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F1910>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F1370>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F1BB0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F1AC0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F1FD0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F2070>]; Name Mappings: [<data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F20D0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F2130>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F2190>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F21F0>]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\dataPlay\data\user_data\Generic\XML\3.xml
 Input Data Length: 62
 Output Data:
@@ -4013,7 +4013,7 @@ Output Data Length: 636
 --------------------------------------------------------------------------------
 ******************************* Miscellaneous Files; SearchAndReplaceData Object; Item 10 ******************************
 Remarks: Miscellaneous Files; SearchAndReplaceData Object
-Info => Transaction Id: yi5o6s8z011p; Content Mappings: [<data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB12B0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB1A30>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB1E50>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB1CA0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB3250>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB32B0>]; Name Mappings: [<data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB3310>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB3370>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB33D0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB3430>]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: 7gxsa0g48olb; Content Mappings: [<data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F1280>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F1A00>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F1E20>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F1C70>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F2220>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F2280>]; Name Mappings: [<data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F22E0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F2340>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F23A0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F2400>]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\dataPlay\data\user_data\Generic\XML\4.xml
 Input Data Length: 62
 Output Data:
@@ -4404,7 +4404,7 @@ Output Data Length: 10334
 --------------------------------------------------------------------------------
 ******************************* Miscellaneous Files; SearchAndReplaceData Object; Item 11 ******************************
 Remarks: Miscellaneous Files; SearchAndReplaceData Object
-Info => Transaction Id: 0zsmh4gvigrc; Content Mappings: [<data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB1EB0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB3100>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB31C0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB3040>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB3460>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB34C0>]; Name Mappings: [<data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB3520>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB3580>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB35E0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB3640>]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: c50t6nos9fav; Content Mappings: [<data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F1EE0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F1FA0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F2130>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F21F0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F2430>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F2490>]; Name Mappings: [<data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F24F0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F2550>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F25B0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F2610>]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\dataPlay\data\user_data\Generic\XML\5.xml
 Input Data Length: 62
 Output Data:
@@ -4437,7 +4437,7 @@ Output Data Length: 1118
 --------------------------------------------------------------------------------
 ******************************* Miscellaneous Files; SearchAndReplaceData Object; Item 12 ******************************
 Remarks: Miscellaneous Files; SearchAndReplaceData Object
-Info => Transaction Id: agqi5q6lwyep; Content Mappings: [<data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB1940>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB3310>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB33D0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB3250>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB3670>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB36D0>]; Name Mappings: [<data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB3730>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB3790>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB37F0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB3850>]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: a2l0egtgf53e; Content Mappings: [<data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F1910>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F22E0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F23A0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F2220>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F2640>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F26A0>]; Name Mappings: [<data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F2700>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F2760>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F27C0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F2820>]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\dataPlay\data\user_data\Generic\XML\books.xml
 Input Data Length: 66
 Output Data:
@@ -4565,7 +4565,7 @@ Output Data Length: 4429
 --------------------------------------------------------------------------------
 ******************************* Miscellaneous Files; SearchAndReplaceData Object; Item 13 ******************************
 Remarks: Miscellaneous Files; SearchAndReplaceData Object
-Info => Transaction Id: i0vdlr52qkj9; Content Mappings: [<data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB3580>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB3640>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB31C0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB3460>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB3880>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB38E0>]; Name Mappings: [<data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB3940>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB39A0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB3A00>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB3A60>]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: jszn13c7fevi; Content Mappings: [<data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F24F0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F25B0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F2130>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F2430>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F2850>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F28B0>]; Name Mappings: [<data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F2910>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F2970>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F29D0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F2A30>]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\dataPlay\data\user_data\Generic\XML\note.xml
 Input Data Length: 65
 Output Data:
@@ -4580,7 +4580,7 @@ Output Data Length: 164
 --------------------------------------------------------------------------------
 ******************************* Miscellaneous Files; SearchAndReplaceData Object; Item 14 ******************************
 Remarks: Miscellaneous Files; SearchAndReplaceData Object
-Info => Transaction Id: 79y1716yxr0q; Content Mappings: [<data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB3790>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB3850>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB33D0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB3670>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB3A90>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB3AF0>]; Name Mappings: [<data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB3B50>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB3BB0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB3C10>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB3C70>]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: 19uasb156mij; Content Mappings: [<data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F2760>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F2820>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F23A0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F2640>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F2A60>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F2AC0>]; Name Mappings: [<data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F2B20>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F2B80>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F2BE0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F2C40>]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\dataPlay\data\user_data\Generic\XML\sitemap.xml
 Input Data Length: 68
 Output Data:
@@ -4623,7 +4623,7 @@ Output Data Length: 903
 --------------------------------------------------------------------------------
 ******************************* Miscellaneous Files; SearchAndReplaceData Object; Item 15 ******************************
 Remarks: Miscellaneous Files; SearchAndReplaceData Object
-Info => Transaction Id: o937pwqkqf2h; Content Mappings: [<data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB3A00>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB3580>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB31C0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB3880>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB3CA0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB3D00>]; Name Mappings: [<data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB3D60>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB3DC0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB3E20>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x0000024210CB3E80>]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: q530ooyqw0fl; Content Mappings: [<data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F29D0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F24F0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F2130>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F2850>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F2C70>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F2CD0>]; Name Mappings: [<data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F2D30>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F2D90>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F2DF0>, <data_play.main.helper.searchdata.SearchAndReplaceData object at 0x000001A1342F2E50>]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\dataPlay\data\user_data\Generic\YML\hex_to_ascii_exp.yml
 Input Data Length: 77
 Output Data:
@@ -4639,7 +4639,7 @@ Output Data Length: 412
 --------------------------------------------------------------------------------
 ++++++++++++++++++++++++++++++++ Miscellaneous Files; Detailed Dictionary; Encoding UTF8 +++++++++++++++++++++++++++++++
 Remarks: Miscellaneous Files; Detailed Dictionary; Encoding UTF8
-Info => Transaction Id: hgmvh9iiwqwm; Content Mappings: [{'include_search_pattern': 'Copy ', 'replace_with': 'Paste '}, {'include_search_pattern': '"title"', 'replace_with': '"sir_name"'}, {}, {'include_search_pattern': 'Fantasy', 'replace_with': 'Horror'}, {'include_search_pattern': 'svg', 'replace_with': 'jpeg'}, {'include_search_pattern': 'SVG', 'replace_with': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\detailed_dic_encoding'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: 3f0hxbn9rtvx; Content Mappings: [{'include_search_pattern': 'Copy ', 'replace_with': 'Paste '}, {'include_search_pattern': '"title"', 'replace_with': '"sir_name"'}, {}, {'include_search_pattern': 'Fantasy', 'replace_with': 'Horror'}, {'include_search_pattern': 'svg', 'replace_with': 'jpeg'}, {'include_search_pattern': 'SVG', 'replace_with': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\detailed_dic_encoding'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: data\user_data\Generic
 Input Data Length: 22
 --------------------------------------------------------------------------------
@@ -4650,13 +4650,13 @@ include_dirs: []
 excludes: ['*_output.*']
 ++++++++++++++++++++++++ Miscellaneous Files; Detailed Dictionary; Encoding UTF8; (15 Elements) ++++++++++++++++++++++++
 Remarks: Miscellaneous Files; Detailed Dictionary; Encoding UTF8
-Info => Transaction Id: jamlg9nna4qg; Content Mappings: [{'include_search_pattern': 'Copy ', 'replace_with': 'Paste '}, {'include_search_pattern': '"title"', 'replace_with': '"sir_name"'}, {}, {'include_search_pattern': 'Fantasy', 'replace_with': 'Horror'}, {'include_search_pattern': 'svg', 'replace_with': 'jpeg'}, {'include_search_pattern': 'SVG', 'replace_with': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\detailed_dic_encoding'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: bpfnpqj23wgm; Content Mappings: [{'include_search_pattern': 'Copy ', 'replace_with': 'Paste '}, {'include_search_pattern': '"title"', 'replace_with': '"sir_name"'}, {}, {'include_search_pattern': 'Fantasy', 'replace_with': 'Horror'}, {'include_search_pattern': 'svg', 'replace_with': 'jpeg'}, {'include_search_pattern': 'SVG', 'replace_with': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\detailed_dic_encoding'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: ['D:\\Other\\Github_Self\\dataPlay\\data\\user_data\\Generic\\Json\\1.json', 'D:\\Other\\Github_Self\\dataPlay\\data\\user_data\\Generic\\Json\\2.json', 'D:\\Other\\Github_Self\\dataPlay\\data\\user_data\\Generic\\Json\\3.json', 'D:\\Other\\Github_Self\\dataPlay\\data\\user_data\\Generic\\Json\\4.json', 'D:\\Other\\Github_Self\\dataPlay\\data\\user_data\\Generic\\Json\\5.json', 'D:\\Other\\Github_Self\\dataPlay\\data\\user_data\\Generic\\python\\test.py', 'D:\\Other\\Github_Self\\dataPlay\\data\\user_data\\Generic\\XML\\1.xml', 'D:\\Other\\Github_Self\\dataPlay\\data\\user_data\\Generic\\XML\\2.xml', 'D:\\Other\\Github_Self\\dataPlay\\data\\user_data\\Generic\\XML\\3.xml', 'D:\\Other\\Github_Self\\dataPlay\\data\\user_data\\Generic\\XML\\4.xml', 'D:\\Other\\Github_Self\\dataPlay\\data\\user_data\\Generic\\XML\\5.xml', 'D:\\Other\\Github_Self\\dataPlay\\data\\user_data\\Generic\\XML\\books.xml', 'D:\\Other\\Github_Self\\dataPlay\\data\\user_data\\Generic\\XML\\note.xml', 'D:\\Other\\Github_Self\\dataPlay\\data\\user_data\\Generic\\XML\\sitemap.xml', 'D:\\Other\\Github_Self\\dataPlay\\data\\user_data\\Generic\\YML\\hex_to_ascii_exp.yml']
 Input Data Length: 1153
 --------------------------------------------------------------------------------
 **************************** Miscellaneous Files; Detailed Dictionary; Encoding UTF8; Item 1 ***************************
 Remarks: Miscellaneous Files; Detailed Dictionary; Encoding UTF8
-Info => Transaction Id: 2x72yinasmxz; Content Mappings: [{'include_search_pattern': 'Copy ', 'replace_with': 'Paste '}, {'include_search_pattern': '"title"', 'replace_with': '"sir_name"'}, {}, {'include_search_pattern': 'Fantasy', 'replace_with': 'Horror'}, {'include_search_pattern': 'svg', 'replace_with': 'jpeg'}, {'include_search_pattern': 'SVG', 'replace_with': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\detailed_dic_encoding'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: x5ya18xlmimi; Content Mappings: [{'include_search_pattern': 'Copy ', 'replace_with': 'Paste '}, {'include_search_pattern': '"title"', 'replace_with': '"sir_name"'}, {}, {'include_search_pattern': 'Fantasy', 'replace_with': 'Horror'}, {'include_search_pattern': 'svg', 'replace_with': 'jpeg'}, {'include_search_pattern': 'SVG', 'replace_with': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\detailed_dic_encoding'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\dataPlay\data\user_data\Generic\Json\1.json
 Input Data Length: 64
 Output Data:
@@ -4686,7 +4686,7 @@ Output Data Length: 588
 --------------------------------------------------------------------------------
 **************************** Miscellaneous Files; Detailed Dictionary; Encoding UTF8; Item 2 ***************************
 Remarks: Miscellaneous Files; Detailed Dictionary; Encoding UTF8
-Info => Transaction Id: 8axw3ieauf6j; Content Mappings: [{'include_search_pattern': 'Copy ', 'replace_with': 'Paste '}, {'include_search_pattern': '"title"', 'replace_with': '"sir_name"'}, {}, {'include_search_pattern': 'Fantasy', 'replace_with': 'Horror'}, {'include_search_pattern': 'svg', 'replace_with': 'jpeg'}, {'include_search_pattern': 'SVG', 'replace_with': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\detailed_dic_encoding'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: 4qgl9rwi0baf; Content Mappings: [{'include_search_pattern': 'Copy ', 'replace_with': 'Paste '}, {'include_search_pattern': '"title"', 'replace_with': '"sir_name"'}, {}, {'include_search_pattern': 'Fantasy', 'replace_with': 'Horror'}, {'include_search_pattern': 'svg', 'replace_with': 'jpeg'}, {'include_search_pattern': 'SVG', 'replace_with': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\detailed_dic_encoding'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\dataPlay\data\user_data\Generic\Json\2.json
 Input Data Length: 64
 Output Data:
@@ -4705,7 +4705,7 @@ Output Data Length: 241
 --------------------------------------------------------------------------------
 **************************** Miscellaneous Files; Detailed Dictionary; Encoding UTF8; Item 3 ***************************
 Remarks: Miscellaneous Files; Detailed Dictionary; Encoding UTF8
-Info => Transaction Id: 8usxtkiaw4hp; Content Mappings: [{'include_search_pattern': 'Copy ', 'replace_with': 'Paste '}, {'include_search_pattern': '"title"', 'replace_with': '"sir_name"'}, {}, {'include_search_pattern': 'Fantasy', 'replace_with': 'Horror'}, {'include_search_pattern': 'svg', 'replace_with': 'jpeg'}, {'include_search_pattern': 'SVG', 'replace_with': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\detailed_dic_encoding'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: oixzhv83xyl1; Content Mappings: [{'include_search_pattern': 'Copy ', 'replace_with': 'Paste '}, {'include_search_pattern': '"title"', 'replace_with': '"sir_name"'}, {}, {'include_search_pattern': 'Fantasy', 'replace_with': 'Horror'}, {'include_search_pattern': 'svg', 'replace_with': 'jpeg'}, {'include_search_pattern': 'SVG', 'replace_with': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\detailed_dic_encoding'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\dataPlay\data\user_data\Generic\Json\3.json
 Input Data Length: 64
 Output Data:
@@ -4740,7 +4740,7 @@ Output Data Length: 609
 --------------------------------------------------------------------------------
 **************************** Miscellaneous Files; Detailed Dictionary; Encoding UTF8; Item 4 ***************************
 Remarks: Miscellaneous Files; Detailed Dictionary; Encoding UTF8
-Info => Transaction Id: z5zwtsssr07l; Content Mappings: [{'include_search_pattern': 'Copy ', 'replace_with': 'Paste '}, {'include_search_pattern': '"title"', 'replace_with': '"sir_name"'}, {}, {'include_search_pattern': 'Fantasy', 'replace_with': 'Horror'}, {'include_search_pattern': 'svg', 'replace_with': 'jpeg'}, {'include_search_pattern': 'SVG', 'replace_with': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\detailed_dic_encoding'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: j5r9qbssa4up; Content Mappings: [{'include_search_pattern': 'Copy ', 'replace_with': 'Paste '}, {'include_search_pattern': '"title"', 'replace_with': '"sir_name"'}, {}, {'include_search_pattern': 'Fantasy', 'replace_with': 'Horror'}, {'include_search_pattern': 'svg', 'replace_with': 'jpeg'}, {'include_search_pattern': 'SVG', 'replace_with': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\detailed_dic_encoding'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\dataPlay\data\user_data\Generic\Json\4.json
 Input Data Length: 64
 Output Data:
@@ -4836,7 +4836,7 @@ Output Data Length: 3467
 --------------------------------------------------------------------------------
 **************************** Miscellaneous Files; Detailed Dictionary; Encoding UTF8; Item 5 ***************************
 Remarks: Miscellaneous Files; Detailed Dictionary; Encoding UTF8
-Info => Transaction Id: 2qzflojmiqcw; Content Mappings: [{'include_search_pattern': 'Copy ', 'replace_with': 'Paste '}, {'include_search_pattern': '"title"', 'replace_with': '"sir_name"'}, {}, {'include_search_pattern': 'Fantasy', 'replace_with': 'Horror'}, {'include_search_pattern': 'svg', 'replace_with': 'jpeg'}, {'include_search_pattern': 'SVG', 'replace_with': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\detailed_dic_encoding'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: 4mbmulshua12; Content Mappings: [{'include_search_pattern': 'Copy ', 'replace_with': 'Paste '}, {'include_search_pattern': '"title"', 'replace_with': '"sir_name"'}, {}, {'include_search_pattern': 'Fantasy', 'replace_with': 'Horror'}, {'include_search_pattern': 'svg', 'replace_with': 'jpeg'}, {'include_search_pattern': 'SVG', 'replace_with': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\detailed_dic_encoding'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\dataPlay\data\user_data\Generic\Json\5.json
 Input Data Length: 64
 Output Data:
@@ -4871,7 +4871,7 @@ Output Data Length: 874
 --------------------------------------------------------------------------------
 **************************** Miscellaneous Files; Detailed Dictionary; Encoding UTF8; Item 6 ***************************
 Remarks: Miscellaneous Files; Detailed Dictionary; Encoding UTF8
-Info => Transaction Id: 5p20oegj4bhh; Content Mappings: [{'include_search_pattern': 'Copy ', 'replace_with': 'Paste '}, {'include_search_pattern': '"title"', 'replace_with': '"sir_name"'}, {}, {'include_search_pattern': 'Fantasy', 'replace_with': 'Horror'}, {'include_search_pattern': 'svg', 'replace_with': 'jpeg'}, {'include_search_pattern': 'SVG', 'replace_with': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\detailed_dic_encoding'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: aje2okpj6s7s; Content Mappings: [{'include_search_pattern': 'Copy ', 'replace_with': 'Paste '}, {'include_search_pattern': '"title"', 'replace_with': '"sir_name"'}, {}, {'include_search_pattern': 'Fantasy', 'replace_with': 'Horror'}, {'include_search_pattern': 'svg', 'replace_with': 'jpeg'}, {'include_search_pattern': 'SVG', 'replace_with': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\detailed_dic_encoding'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\dataPlay\data\user_data\Generic\python\test.py
 Input Data Length: 67
 Output Data:
@@ -5038,7 +5038,7 @@ Output Data Length: 4321
 --------------------------------------------------------------------------------
 **************************** Miscellaneous Files; Detailed Dictionary; Encoding UTF8; Item 7 ***************************
 Remarks: Miscellaneous Files; Detailed Dictionary; Encoding UTF8
-Info => Transaction Id: 6uferc2vp7i4; Content Mappings: [{'include_search_pattern': 'Copy ', 'replace_with': 'Paste '}, {'include_search_pattern': '"title"', 'replace_with': '"sir_name"'}, {}, {'include_search_pattern': 'Fantasy', 'replace_with': 'Horror'}, {'include_search_pattern': 'svg', 'replace_with': 'jpeg'}, {'include_search_pattern': 'SVG', 'replace_with': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\detailed_dic_encoding'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: n5eyytuqpe1f; Content Mappings: [{'include_search_pattern': 'Copy ', 'replace_with': 'Paste '}, {'include_search_pattern': '"title"', 'replace_with': '"sir_name"'}, {}, {'include_search_pattern': 'Fantasy', 'replace_with': 'Horror'}, {'include_search_pattern': 'svg', 'replace_with': 'jpeg'}, {'include_search_pattern': 'SVG', 'replace_with': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\detailed_dic_encoding'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\dataPlay\data\user_data\Generic\XML\1.xml
 Input Data Length: 62
 Output Data:
@@ -5066,7 +5066,7 @@ Output Data Length: 613
 --------------------------------------------------------------------------------
 **************************** Miscellaneous Files; Detailed Dictionary; Encoding UTF8; Item 8 ***************************
 Remarks: Miscellaneous Files; Detailed Dictionary; Encoding UTF8
-Info => Transaction Id: w9rrh8870l1p; Content Mappings: [{'include_search_pattern': 'Copy ', 'replace_with': 'Paste '}, {'include_search_pattern': '"title"', 'replace_with': '"sir_name"'}, {}, {'include_search_pattern': 'Fantasy', 'replace_with': 'Horror'}, {'include_search_pattern': 'svg', 'replace_with': 'jpeg'}, {'include_search_pattern': 'SVG', 'replace_with': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\detailed_dic_encoding'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: 1n71bf3biijn; Content Mappings: [{'include_search_pattern': 'Copy ', 'replace_with': 'Paste '}, {'include_search_pattern': '"title"', 'replace_with': '"sir_name"'}, {}, {'include_search_pattern': 'Fantasy', 'replace_with': 'Horror'}, {'include_search_pattern': 'svg', 'replace_with': 'jpeg'}, {'include_search_pattern': 'SVG', 'replace_with': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\detailed_dic_encoding'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\dataPlay\data\user_data\Generic\XML\2.xml
 Input Data Length: 62
 Output Data:
@@ -5082,7 +5082,7 @@ Output Data Length: 215
 --------------------------------------------------------------------------------
 **************************** Miscellaneous Files; Detailed Dictionary; Encoding UTF8; Item 9 ***************************
 Remarks: Miscellaneous Files; Detailed Dictionary; Encoding UTF8
-Info => Transaction Id: uakt3a1w9w26; Content Mappings: [{'include_search_pattern': 'Copy ', 'replace_with': 'Paste '}, {'include_search_pattern': '"title"', 'replace_with': '"sir_name"'}, {}, {'include_search_pattern': 'Fantasy', 'replace_with': 'Horror'}, {'include_search_pattern': 'svg', 'replace_with': 'jpeg'}, {'include_search_pattern': 'SVG', 'replace_with': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\detailed_dic_encoding'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: r20ltiim2bbk; Content Mappings: [{'include_search_pattern': 'Copy ', 'replace_with': 'Paste '}, {'include_search_pattern': '"title"', 'replace_with': '"sir_name"'}, {}, {'include_search_pattern': 'Fantasy', 'replace_with': 'Horror'}, {'include_search_pattern': 'svg', 'replace_with': 'jpeg'}, {'include_search_pattern': 'SVG', 'replace_with': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\detailed_dic_encoding'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\dataPlay\data\user_data\Generic\XML\3.xml
 Input Data Length: 62
 Output Data:
@@ -5113,7 +5113,7 @@ Output Data Length: 636
 --------------------------------------------------------------------------------
 *************************** Miscellaneous Files; Detailed Dictionary; Encoding UTF8; Item 10 ***************************
 Remarks: Miscellaneous Files; Detailed Dictionary; Encoding UTF8
-Info => Transaction Id: pwbwia3p5r9z; Content Mappings: [{'include_search_pattern': 'Copy ', 'replace_with': 'Paste '}, {'include_search_pattern': '"title"', 'replace_with': '"sir_name"'}, {}, {'include_search_pattern': 'Fantasy', 'replace_with': 'Horror'}, {'include_search_pattern': 'svg', 'replace_with': 'jpeg'}, {'include_search_pattern': 'SVG', 'replace_with': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\detailed_dic_encoding'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: 5fyxpgytpupf; Content Mappings: [{'include_search_pattern': 'Copy ', 'replace_with': 'Paste '}, {'include_search_pattern': '"title"', 'replace_with': '"sir_name"'}, {}, {'include_search_pattern': 'Fantasy', 'replace_with': 'Horror'}, {'include_search_pattern': 'svg', 'replace_with': 'jpeg'}, {'include_search_pattern': 'SVG', 'replace_with': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\detailed_dic_encoding'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\dataPlay\data\user_data\Generic\XML\4.xml
 Input Data Length: 62
 Output Data:
@@ -5504,7 +5504,7 @@ Output Data Length: 10334
 --------------------------------------------------------------------------------
 *************************** Miscellaneous Files; Detailed Dictionary; Encoding UTF8; Item 11 ***************************
 Remarks: Miscellaneous Files; Detailed Dictionary; Encoding UTF8
-Info => Transaction Id: zf6cink1rl1w; Content Mappings: [{'include_search_pattern': 'Copy ', 'replace_with': 'Paste '}, {'include_search_pattern': '"title"', 'replace_with': '"sir_name"'}, {}, {'include_search_pattern': 'Fantasy', 'replace_with': 'Horror'}, {'include_search_pattern': 'svg', 'replace_with': 'jpeg'}, {'include_search_pattern': 'SVG', 'replace_with': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\detailed_dic_encoding'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: sow4522rk3k7; Content Mappings: [{'include_search_pattern': 'Copy ', 'replace_with': 'Paste '}, {'include_search_pattern': '"title"', 'replace_with': '"sir_name"'}, {}, {'include_search_pattern': 'Fantasy', 'replace_with': 'Horror'}, {'include_search_pattern': 'svg', 'replace_with': 'jpeg'}, {'include_search_pattern': 'SVG', 'replace_with': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\detailed_dic_encoding'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\dataPlay\data\user_data\Generic\XML\5.xml
 Input Data Length: 62
 Output Data:
@@ -5537,7 +5537,7 @@ Output Data Length: 1118
 --------------------------------------------------------------------------------
 *************************** Miscellaneous Files; Detailed Dictionary; Encoding UTF8; Item 12 ***************************
 Remarks: Miscellaneous Files; Detailed Dictionary; Encoding UTF8
-Info => Transaction Id: 3a7dk9pqlq8r; Content Mappings: [{'include_search_pattern': 'Copy ', 'replace_with': 'Paste '}, {'include_search_pattern': '"title"', 'replace_with': '"sir_name"'}, {}, {'include_search_pattern': 'Fantasy', 'replace_with': 'Horror'}, {'include_search_pattern': 'svg', 'replace_with': 'jpeg'}, {'include_search_pattern': 'SVG', 'replace_with': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\detailed_dic_encoding'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: 8zfiqpzbzcuy; Content Mappings: [{'include_search_pattern': 'Copy ', 'replace_with': 'Paste '}, {'include_search_pattern': '"title"', 'replace_with': '"sir_name"'}, {}, {'include_search_pattern': 'Fantasy', 'replace_with': 'Horror'}, {'include_search_pattern': 'svg', 'replace_with': 'jpeg'}, {'include_search_pattern': 'SVG', 'replace_with': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\detailed_dic_encoding'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\dataPlay\data\user_data\Generic\XML\books.xml
 Input Data Length: 66
 Output Data:
@@ -5665,7 +5665,7 @@ Output Data Length: 4425
 --------------------------------------------------------------------------------
 *************************** Miscellaneous Files; Detailed Dictionary; Encoding UTF8; Item 13 ***************************
 Remarks: Miscellaneous Files; Detailed Dictionary; Encoding UTF8
-Info => Transaction Id: d458lv5xikwd; Content Mappings: [{'include_search_pattern': 'Copy ', 'replace_with': 'Paste '}, {'include_search_pattern': '"title"', 'replace_with': '"sir_name"'}, {}, {'include_search_pattern': 'Fantasy', 'replace_with': 'Horror'}, {'include_search_pattern': 'svg', 'replace_with': 'jpeg'}, {'include_search_pattern': 'SVG', 'replace_with': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\detailed_dic_encoding'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: sh5ap2kxpvva; Content Mappings: [{'include_search_pattern': 'Copy ', 'replace_with': 'Paste '}, {'include_search_pattern': '"title"', 'replace_with': '"sir_name"'}, {}, {'include_search_pattern': 'Fantasy', 'replace_with': 'Horror'}, {'include_search_pattern': 'svg', 'replace_with': 'jpeg'}, {'include_search_pattern': 'SVG', 'replace_with': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\detailed_dic_encoding'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\dataPlay\data\user_data\Generic\XML\note.xml
 Input Data Length: 65
 Output Data:
@@ -5680,7 +5680,7 @@ Output Data Length: 164
 --------------------------------------------------------------------------------
 *************************** Miscellaneous Files; Detailed Dictionary; Encoding UTF8; Item 14 ***************************
 Remarks: Miscellaneous Files; Detailed Dictionary; Encoding UTF8
-Info => Transaction Id: uezukc0hq1ch; Content Mappings: [{'include_search_pattern': 'Copy ', 'replace_with': 'Paste '}, {'include_search_pattern': '"title"', 'replace_with': '"sir_name"'}, {}, {'include_search_pattern': 'Fantasy', 'replace_with': 'Horror'}, {'include_search_pattern': 'svg', 'replace_with': 'jpeg'}, {'include_search_pattern': 'SVG', 'replace_with': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\detailed_dic_encoding'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: ibtkanx0veqn; Content Mappings: [{'include_search_pattern': 'Copy ', 'replace_with': 'Paste '}, {'include_search_pattern': '"title"', 'replace_with': '"sir_name"'}, {}, {'include_search_pattern': 'Fantasy', 'replace_with': 'Horror'}, {'include_search_pattern': 'svg', 'replace_with': 'jpeg'}, {'include_search_pattern': 'SVG', 'replace_with': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\detailed_dic_encoding'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\dataPlay\data\user_data\Generic\XML\sitemap.xml
 Input Data Length: 68
 Output Data:
@@ -5723,7 +5723,7 @@ Output Data Length: 903
 --------------------------------------------------------------------------------
 *************************** Miscellaneous Files; Detailed Dictionary; Encoding UTF8; Item 15 ***************************
 Remarks: Miscellaneous Files; Detailed Dictionary; Encoding UTF8
-Info => Transaction Id: t5p4qbq9bxtu; Content Mappings: [{'include_search_pattern': 'Copy ', 'replace_with': 'Paste '}, {'include_search_pattern': '"title"', 'replace_with': '"sir_name"'}, {}, {'include_search_pattern': 'Fantasy', 'replace_with': 'Horror'}, {'include_search_pattern': 'svg', 'replace_with': 'jpeg'}, {'include_search_pattern': 'SVG', 'replace_with': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\detailed_dic_encoding'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: lvrfg5iswq2o; Content Mappings: [{'include_search_pattern': 'Copy ', 'replace_with': 'Paste '}, {'include_search_pattern': '"title"', 'replace_with': '"sir_name"'}, {}, {'include_search_pattern': 'Fantasy', 'replace_with': 'Horror'}, {'include_search_pattern': 'svg', 'replace_with': 'jpeg'}, {'include_search_pattern': 'SVG', 'replace_with': 'PNG'}]; Name Mappings: [{'include_search_pattern': '1', 'replace_with': '11'}, {'include_search_pattern': '2', 'replace_with': '22'}, {'include_search_pattern': '5', 'replace_with': 'dataPlay'}, {'include_search_pattern': 'Generic', 'replace_with': 'Generic_Output\\detailed_dic_encoding'}]; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\dataPlay\data\user_data\Generic\YML\hex_to_ascii_exp.yml
 Input Data Length: 77
 Output Data:
@@ -5741,8 +5741,8 @@ Output Data Length: 412
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 ---------------------------------- Time Details ----------------------------------
-Current Time Stamp: 2025-03-02 19:48:43.916449+05:30
-Execution Time: 00:00:00; Milliseconds: 121.00529670715332
+Current Time Stamp: 2025-03-03 09:07:12.770718+05:30
+Execution Time: 00:00:00; Milliseconds: 128.9980411529541
 Execution Time CPU: 00:00:00; Milliseconds: 125.0
 Timer State: TIMER_OFF
 --------------------------------------------------------------------------------
